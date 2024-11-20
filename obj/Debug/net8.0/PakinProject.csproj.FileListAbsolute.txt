@@ -1,0 +1,91 @@
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\appsettings.json
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\PakinProject.staticwebassets.runtime.json
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\PakinProject.exe
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\PakinProject.deps.json
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\PakinProject.runtimeconfig.json
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\PakinProject.dll
+C:\Windows\System32\PakinProject\bin\Debug\net8.0\PakinProject.pdb
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.AssemblyInfoInputs.cache
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.AssemblyInfo.cs
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.csproj.CoreCompileInputs.cache
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.RazorAssemblyInfo.cache
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.RazorAssemblyInfo.cs
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.PakinProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.build.PakinProject.props
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PakinProject.props
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PakinProject.props
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\scopedcss\bundle\PakinProject.styles.css
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\scopedcss\projectbundle\PakinProject.bundle.scp.css
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.dll
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\refint\PakinProject.dll
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.pdb
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\PakinProject.genruntimeconfig.cache
+C:\Windows\System32\PakinProject\obj\Debug\net8.0\ref\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\appsettings.json
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\PakinProject.staticwebassets.runtime.json
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\PakinProject.exe
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\PakinProject.deps.json
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\PakinProject.runtimeconfig.json
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject\bin\Debug\net8.0\PakinProject.pdb
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.AssemblyInfoInputs.cache
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.AssemblyInfo.cs
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.csproj.CoreCompileInputs.cache
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.RazorAssemblyInfo.cache
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.RazorAssemblyInfo.cs
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.PakinProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.build.PakinProject.props
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PakinProject.props
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PakinProject.props
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\scopedcss\Views\Home\_Layout.cshtml.rz.scp.css
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\scopedcss\bundle\PakinProject.styles.css
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\scopedcss\projectbundle\PakinProject.bundle.scp.css
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\refint\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.pdb
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\PakinProject.genruntimeconfig.cache
+C:\Users\Anxyzc\Desktop\PakinProject\obj\Debug\net8.0\ref\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\PakinProject.staticwebassets.runtime.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\PakinProject.exe
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\PakinProject.deps.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\PakinProject.runtimeconfig.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\bin\Debug\net8.0\PakinProject.pdb
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.AssemblyInfoInputs.cache
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.AssemblyInfo.cs
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.csproj.CoreCompileInputs.cache
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.RazorAssemblyInfo.cache
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.RazorAssemblyInfo.cs
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\staticwebassets\msbuild.PakinProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\staticwebassets\msbuild.build.PakinProject.props
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PakinProject.props
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PakinProject.props
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\scopedcss\bundle\PakinProject.styles.css
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\scopedcss\projectbundle\PakinProject.bundle.scp.css
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\refint\PakinProject.dll
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.pdb
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\PakinProject.genruntimeconfig.cache
+C:\Users\Anxyzc\Desktop\PakinProject - Backend\obj\Debug\net8.0\ref\PakinProject.dll
