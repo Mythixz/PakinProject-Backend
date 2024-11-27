@@ -1,0 +1,29 @@
+﻿@{
+    var currentCshtmlName = ViewData["CshtmlName"]?.ToString() ?? string.Empty;
+}
+
+<div class="container-fluid under-navbar-content">
+    <div class="d-flex align-items-center justify-content-between">
+        <!-- Logo Section -->
+        <div class="logo-section">
+            <a asp-area="" asp-page="/Index" class="navbar-brand p-0">
+                <img src="~/landingpage/img/LogoPAWhite.png" alt="Logo" style="width: auto; height: 35px;">
+            </a>
+        </div>
+
+        <!-- Navbar Links (Centered Links) -->
+        <div class="navbar-nav d-flex justify-content-center">
+            <a asp-area="" asp-page="/Index" class="nav-item nav-link">Order</a>
+            <a asp-area="" asp-page="/PC" class="nav-item nav-link">PC</a>
+            <a asp-area="" asp-page="/Console" class="nav-item nav-link">Console</a>
+            <a asp-area="" asp-page="/Mobile" class="nav-item nav-link">Mobile</a>
+            <a asp-area="" asp-page="/Lifestyle" class="nav-item nav-link">Lifestyle</a>
+            <a asp-area="" asp-page="/Services" class="nav-item nav-link">Services</a>
+            <a asp-area="" asp-page="/Support" class="nav-item nav-link">Support</a>
+        </div>
+    </div>
+</div>
+
+
+
+

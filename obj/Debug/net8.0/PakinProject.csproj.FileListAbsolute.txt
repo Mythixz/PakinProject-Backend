@@ -605,3 +605,4 @@ C:\Users\Anxyzc\Desktop\PakinProject-Backend\bin\Debug\net8.0\ICSharpCode.SharpZ
 C:\Users\Anxyzc\Desktop\PakinProject-Backend\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\Anxyzc\Desktop\PakinProject-Backend\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 C:\Users\Anxyzc\Desktop\PakinProject-Backend\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
+C:\Users\Anxyzc\Desktop\PakinProject-Backend\obj\Debug\net8.0\scopedcss\Views\Admin\_Layout.cshtml.rz.scp.css
