@@ -1,6 +1,10 @@
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using PakinProject.Models;
+using PakinProject.Data; // เพิ่มการนำเข้าที่เหมาะสม
+using Microsoft.Extensions.Logging;
+using System.Linq;
+using Microsoft.EntityFrameworkCore; // ใช้สำหรับ LINQ
 
 namespace PakinProject.Controllers;
 
@@ -17,6 +21,7 @@ public class HomeController : Controller
     {
         return View();
     }
+
 
     public IActionResult Privacy()
     {

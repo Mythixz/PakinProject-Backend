@@ -1,0 +1,37 @@
+﻿@model IEnumerable<PakinProject.Models.OrderDTO>
+
+<h1>Order List</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer ID</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Created At</th>
+            <th>Actions</th> <!-- เพิ่มคอลัมน์สำหรับปุ่มดู PDF -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.CustomerID</td>
+                <td>@order.ProductName (@order.ProductCode)</td>
+                <td>@order.Quantity</td>
+                <td>@String.Format("{0:C}", order.TotalPrice)</td>
+                <td>@order.Status</td>
+                <td>@order.CreatedAt.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>
+                    <!-- ปุ่มดู PDF ของแต่ละคำสั่งซื้อ -->
+                    <a href="@Url.Action("GenerateInvoice", "Order", new { orderId = order.OrderId })" target="_blank">
+                        <button>Download Invoice</button>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

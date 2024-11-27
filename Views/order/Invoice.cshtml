@@ -1,0 +1,30 @@
+﻿@model PakinProject.Models.InvoiceDTO
+
+@{
+    ViewData["Title"] = "Invoice";
+}
+
+<h2>Invoice</h2>
+
+<div style="border: 1px solid #ccc; padding: 20px; margin: 20px 0; border-radius: 5px;">
+    <h3>Order Details</h3>
+    <p><strong>Order ID:</strong> @Model.OrderId</p>
+    <p><strong>Customer ID:</strong> @Model.CustomerID</p>
+    <p><strong>Product:</strong> @Model.ProductName</p>
+    <p><strong>Quantity:</strong> @Model.Quantity</p>
+    <p><strong>Total Price:</strong> @Model.TotalPrice:C</p>
+    <p><strong>Shipping Address:</strong> @Model.ShippingAddress</p>
+    <p><strong>Order Date:</strong> @Model.CreatedAt.ToString("yyyy-MM-dd")</p>
+</div>
+
+<!-- ปุ่มสำหรับดาวน์โหลด PDF -->
+<div style="margin-top: 20px;">
+    <a asp-action="GenerateInvoice" asp-route-orderId="@Model.OrderId" class="btn btn-primary" target="_blank">
+        Download as PDF
+    </a>
+</div>
+
+<!-- ปุ่มกลับไปหน้าประวัติการสั่งซื้อ -->
+<div style="margin-top: 10px;">
+    <a asp-action="Index" class="btn btn-secondary">Back to Orders</a>
+</div>

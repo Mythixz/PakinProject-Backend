@@ -1,0 +1,90 @@
+﻿@model IEnumerable<PakinProject.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Product List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<!-- ฟอร์มสำหรับกรองและเรียงลำดับ -->
+<form method="get" asp-action="Index">
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label for="Category" class="form-label">Category</label>
+            <select id="Category" name="category" class="form-select">
+                <option value="">-- All Categories --</option>
+                <option value="Smartphone">Smartphone</option>
+                <option value="Gaming Gear">Gaming Gear</option>
+                <option value="Accessories">Accessories</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="SortOption" class="form-label">Sort By</label>
+            <select id="SortOption" name="sortOption" class="form-select">
+                <option value="">-- Default --</option>
+                <option value="PriceAsc">Price: Low to High</option>
+                <option value="PriceDesc">Price: High to Low</option>
+                <option value="Popular">Most Popular</option>
+            </select>
+        </div>
+        <div class="col-md-4 d-flex align-items-end">
+            <button type="submit" class="btn btn-secondary">Apply</button>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().ProductCode)</th>
+            <th>@Html.DisplayNameFor(model => model.First().ProductName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Description)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Price)</th>
+            <th>Category</th>
+            <th>Stock</th>
+            <th>Image</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProductCode)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                <td>@item.Category</td>
+                <td>
+                    @if (item.StockQuantity <= 10)
+                    {
+                        <span class="text-danger">Low: @item.StockQuantity</span>
+                    }
+                    else
+                    {
+                        <span>@item.StockQuantity</span>
+                    }
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImageBase64))
+                    {
+                        <img src="data:image/png;base64,@item.ImageBase64" style="width:50px; height:auto;" alt="Product Image" />
+                    }
+                    else
+                    {
+                        <span>No Image</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

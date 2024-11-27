@@ -1,22 +1,44 @@
-@model LoginViewModel
-
+﻿@model LoginViewModel
 @{
-    ViewData["Title"] = "Login";
+    Layout = "~/Views/Account/_Layout.cshtml";
 }
+<body>
+    <!-- Fullscreen Background -->
+    <div class="bg-container">
+        <img src="/landingpage/img/bg-login.jpg" alt="Background" class="bg-fullscreen">
+    </div>
 
-<div class="container mt-5">
-    <h2>Login</h2>
-    <form asp-action="Login" method="post">
-        <div class="mb-3">
-            <label asp-for="Email" class="form-label">Email</label>
-            <input asp-for="Email" class="form-control" type="email" />
-            <span asp-validation-for="Email" class="text-danger"></span>
+    <!-- Login Card -->
+    <div class="container">
+        <div class="login-card">
+            <h2>Sign in</h2>
+            <p>Please enter your login and password!</p>
+
+            <!-- Error Message -->
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+
+            <form asp-action="Login" method="post">
+                <div class="form-group">
+                    <label for="Email">Email:</label>   
+                    <input type="email" asp-for="Email" class="form-control">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password:</label>
+                    <input type="password" asp-for="Password" class="form-control">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+
+            <div class="forgot-password">
+                <a href="@Url.Action("ForgotPassword", "Account")" class="text-primary">Forgot Password?</a>
+            </div>
         </div>
-        <div class="mb-3">
-            <label asp-for="Password" class="form-label">Password</label>
-            <input asp-for="Password" class="form-control" type="password" />
-            <span asp-validation-for="Password" class="text-danger"></span>
-        </div>
-        <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-</div>
+    </div>
+</body>

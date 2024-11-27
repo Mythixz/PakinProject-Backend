@@ -1,12 +1,23 @@
 
 /********** Root Pakin CSS **********/
 :root {
-    --primary: #06A3DA;
-    --secondary: #34AD54;
+    --primary: #44d62c;
+    --secondary: #19b300;
     --light: #EEF9FF;
     --dark: #101010;
 }
 
+.text-primary {
+    color: #44d62c !important;
+}
+
+.bg-primary {
+    background-color: #44d62c !important;
+}
+
+.bg-light {
+    background-color: #f7f7f7 !important;
+}
 
 /*** Spinner ***/
 .spinner {
@@ -65,20 +76,28 @@
 /*** Heading ***/
 h1,
 h2,
+
 .fw-bold {
     font-weight: 800 !important;
+    font-family: 'Prompt', sans-serif;
 }
 
 h3,
 h4,
 .fw-semi-bold {
     font-weight: 700 !important;
+    font-family: 'Prompt', sans-serif;
 }
 
 h5,
 h6,
 .fw-medium {
     font-weight: 600 !important;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
 }
 
 
@@ -89,13 +108,21 @@ h6,
     transition: .5s;
 }
 
-.btn-primary,
+/*** Update:ParkJiyong 1954 21/11/2024 ***/
+.btn-primary {
+    background-color: var(--primary);
+    border-color: #44d62c;
+}
+
 .btn-secondary {
     color: #FFFFFF;
     box-shadow: inset 0 0 0 50px transparent;
 }
 
+/*** Update:ParkJiyong 1954 21/11/2024 ***/
 .btn-primary:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
     box-shadow: inset 0 0 0 0 var(--primary);
 }
 
@@ -183,7 +210,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #FFFFFF;
+        background: #222;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
@@ -237,9 +264,9 @@ h6,
     width: 1.5rem; /* ลดขนาดไอคอน */
     height: 1.5rem;
     background-color: transparent; /* พื้นหลังใส */
-    border: 2px solid #00ffff; /* กรอบสีฟ้านีออน */
+    border: 2px solid var(--primary); /* กรอบสีฟ้านีออน */
     border-radius: 50%; /* ทำให้เป็นวงกลม */
-    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff, 0 0 30px #00ffff; /* เงาเรืองแสง */
+    box-shadow: 0 0 10px var(--primary), 0 0 20px var(--light), 0 0 30px var(--primary); /* เงาเรืองแสง */
 }
 
 .carousel-control-prev,
@@ -576,4 +603,66 @@ h6,
 }
 .container-fluid.bg-dark {
     border-bottom: 1px solid var(--primary) !important;
+}
+.rf-ccard-img-full {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.rf-ccard-content {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px #00000014;
+    display: flex;
+    flex-direction: column;
+    height: 29.4117647059rem;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s cubic-bezier(0,0,.5,1);
+    white-space: normal;
+    width: 28.2352941176rem
+}
+
+.custom-title {
+    font-family: 'Prompt', sans-serif; /* ใช้ฟอนต์ Prompt สำหรับภาษาไทย */
+    font-size: 2rem; /* ปรับขนาดตามความเหมาะสม */
+    font-weight: 700; /* ตัวหนา */
+    color: #000000; /* สีดำ */
+}
+
+.custom-title .highlight-apple {
+    color: #6e6e73; /* สีเทาสไตล์ Apple */
+    font-family: 'Inter', sans-serif; /* ใช้ฟอนต์ Inter สำหรับ Apple */
+    font-weight: 600; /* น้ำหนักตัวอักษร */
+}
+.wallet-info, .user-info {
+    font-size: 14px; /* ขนาดฟอนต์สำหรับข้อความทั่วไป */
+    line-height: 1.2; /* เพิ่มความห่างระหว่างบรรทัด */
+}
+
+.wallet-label, .user-label {
+    font-size: 12px; /* ขนาดฟอนต์ของข้อความหัวข้อ */
+    font-weight: bold;
+    color: #ccc; /* สีเทาสำหรับข้อความหัวข้อ */
+    margin-bottom: 0;
+}
+
+.wallet-balance, .user-name {
+    font-size: 14px; /* ขนาดฟอนต์ของข้อมูลหลัก */
+    font-weight: bold;
+    color: #fff; /* สีขาวสำหรับข้อมูลหลัก */
+    margin: 0;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-nav .nav-item.me-3 {
+    margin-right: 20px; /* เพิ่มระยะห่างระหว่างส่วนต่างๆ */
 }

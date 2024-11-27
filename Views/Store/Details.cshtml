@@ -1,0 +1,11 @@
+﻿@model IEnumerable<PakinProject.Models.Product>
+
+@foreach (var product in Model)
+{
+    <div class="col-md-4">
+        <h5>@product.ProductName</h5>
+        <p>@product.Description</p>
+        <p>Price: @product.Price.ToString("C")</p>
+        <img src="data:image/jpeg;base64,@product.ImageBase64" alt="@product.ProductName" class="img-fluid" />
+    </div>
+}

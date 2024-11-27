@@ -1,0 +1,64 @@
+﻿@model PakinProject.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="text-center my-4">Delete Product</h1>
+
+<div class="container">
+    <h3 class="text-danger">Are you sure you want to delete this?</h3>
+    <div class="card">
+        <div class="card-body">
+            <h4>Product Details</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.ProductCode)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.ProductCode)
+                </dd>
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.ProductName)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.ProductName)
+                </dd>
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.ImageBase64)
+                </dt>
+                <dd class="col-sm-8">
+                    @if (!string.IsNullOrEmpty(Model.ImageBase64))
+                    {
+                        <img src="data:image/png;base64,@Model.ImageBase64" style="width:100px; height:auto;" alt="Product image" />
+                    }
+                    else
+                    {
+                        <span>No Image Available</span>
+                    }
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="Delete" class="mt-4">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger btn-lg" />
+            <a asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+        </div>
+    </form>
+</div>

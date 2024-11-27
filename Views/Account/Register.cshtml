@@ -1,27 +1,47 @@
-@model RegisterViewModel
-
+﻿@model RegisterViewModel
 @{
-    ViewData["Title"] = "Register";
+    Layout = "~/Views/Account/_Layout.cshtml";
 }
+<body>
 
-<div class="container mt-5">
+    <div class="bg-container">
+        <img src="/landingpage/img/bg-register.jpg" alt="Background" class="bg-fullscreen">
+    </div>
+
+<div class="container">
+    <div class="register-card">
     <h2>Register</h2>
-    <form asp-action="Register" method="post">
-        <div class="mb-3">
-            <label asp-for="Email" class="form-label">Email</label>
-            <input asp-for="Email" class="form-control" type="email" />
-            <span asp-validation-for="Email" class="text-danger"></span>
+    <p>create the account here!</p>
+        <form asp-action="Register" method="post">
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="email" asp-for="Email" class="form-control">
+                <span asp-validation-for="Email"></span> <!-- การแสดงข้อผิดพลาดจาก validation -->
+            </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" asp-for="Password" class="form-control">
+                <span asp-validation-for="Password"></span> <!-- การแสดงข้อผิดพลาดจาก validation -->
+            </div>
+            <div class="form-group">
+                <label>Confirm Password:</label>
+                <input type="password" asp-for="ConfirmPassword" class="form-control">
+                <span asp-validation-for="ConfirmPassword"></span> <!-- การแสดงข้อผิดพลาดจาก validation -->
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+
+    <!-- ใส่ข้อความแสดงผลสำหรับการสมัครสมาชิกสำเร็จ -->
+        <div>
+            @if (TempData["Message"] != null)
+            {
+                <p>@TempData["Message"]</p>
+            }
         </div>
-        <div class="mb-3">
-            <label asp-for="Password" class="form-label">Password</label>
-            <input asp-for="Password" class="form-control" type="password" />
-            <span asp-validation-for="Password" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
-            <input asp-for="ConfirmPassword" class="form-control" type="password" />
-            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-        </div>
-        <button type="submit" class="btn btn-primary">Register</button>
-    </form>
+    </div>
 </div>
+</body>
+@section Scripts {
+    <!-- สคริปต์สำหรับการตรวจสอบ validation ของ ASP.NET Core -->
+    <partial name="_ValidationScriptsPartial" />
+}
