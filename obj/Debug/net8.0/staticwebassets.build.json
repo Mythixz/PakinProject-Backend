@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "koTQ2BzYLVCDghBUNHA7IEpIo1tYXL+wWgvi/UMZM04=",
+  "Hash": "/DSiHYKWD04EhSg2WfTclu68lPJl/y9nu+Rx7aDdGZU=",
   "Source": "PakinProject",
   "BasePath": "_content/PakinProject",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\landingpage\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Anxyzc\\Desktop\\PakinProject-Backend\\wwwroot\\landingpage\\css\\style-admin.css",
+      "SourceId": "PakinProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Anxyzc\\Desktop\\PakinProject-Backend\\wwwroot\\",
+      "BasePath": "_content/PakinProject",
+      "RelativePath": "landingpage/css/style-admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\landingpage\\css\\style-admin.css"
     },
     {
       "Identity": "C:\\Users\\Anxyzc\\Desktop\\PakinProject-Backend\\wwwroot\\landingpage\\css\\style-login.css",

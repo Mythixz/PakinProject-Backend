@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PakinProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30d76de1969deec42ce731cecb513d1ffcbfbb50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fde9fd56a58f1a47dae9b20c067f8c2d6b11856")]
 [assembly: System.Reflection.AssemblyProductAttribute("PakinProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PakinProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

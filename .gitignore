@@ -1,0 +1,15 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore Visual Studio temporary files
+*.user
+*.suo
+*.tmp
+
+# Ignore Debug and Release folders
+Debug/
+Release/
+
+# Ignore publish output
+publish/

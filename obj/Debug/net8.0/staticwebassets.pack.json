@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\landingpage\\css\\bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\Anxyzc\\Desktop\\PakinProject-Backend\\wwwroot\\landingpage\\css\\style-admin.css",
+      "PackagePath": "staticwebassets\\landingpage\\css\\style-admin.css"
+    },
+    {
       "Id": "C:\\Users\\Anxyzc\\Desktop\\PakinProject-Backend\\wwwroot\\landingpage\\css\\style-login.css",
       "PackagePath": "staticwebassets\\landingpage\\css\\style-login.css"
     },
