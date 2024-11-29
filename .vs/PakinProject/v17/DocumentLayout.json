@@ -1,25 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\",
+  "WorkspaceRootPath": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\act22\\desktop\\pakinproject-backend\\views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\act22\\desktop\\pakinproject-backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\act22\\desktop\\pakinproject-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\migrations\\pakinprojectcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:migrations\\pakinprojectcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\migrations\\20241129213013_addpaymentandtransactiontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:migrations\\20241129213013_addpaymentandtransactiontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\wallet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\wallet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\wallet\\deduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\wallet\\deduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\act22\\desktop\\pakinproject-backend\\views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\act22\\desktop\\pakinproject-backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,15 +142,383 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Success.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Success.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T21:36:32.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PakinProjectContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\PakinProjectContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\PakinProjectContextModelSnapshot.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\PakinProjectContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\PakinProjectContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:31:14.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241129213013_AddPaymentAndTransactionTables.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
+              "RelativeToolTip": "Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:30:14.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InvoiceDTO.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\InvoiceDTO.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceDTO.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\InvoiceDTO.cs",
+              "RelativeToolTip": "Models\\InvoiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:06:03.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T16:07:46.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Index.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T20:54:32.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:53:38.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T18:13:38.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentViewModel.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\PaymentViewModel.cs",
+              "RelativeToolTip": "Models\\PaymentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:55:36.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAQwJAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:00:46.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "Models\\CartItemDTO.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItemDTO.cs",
+              "RelativeToolTip": "Models\\CartItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:02:08.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:52:39.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:21:50.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Context.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Data\\Context.cs",
+              "RelativeDocumentMoniker": "Data\\Context.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Data\\Context.cs",
+              "RelativeToolTip": "Data\\Context.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:19:15.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "Models\\CheckoutDTO.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CheckoutDTO.cs",
+              "RelativeToolTip": "Models\\CheckoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:06:48.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Deduct.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Deduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wallet\\Deduct.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Deduct.cshtml",
+              "RelativeToolTip": "Views\\Wallet\\Deduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T21:19:17.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wallet\\Index.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Index.cshtml",
+              "RelativeToolTip": "Views\\Wallet\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T21:19:11.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WalletController.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "Controllers\\WalletController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:18:36.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:04:08.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T15:46:26.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:55:25.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Wallet.cs",
+              "RelativeDocumentMoniker": "Models\\Wallet.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Wallet.cs",
+              "RelativeToolTip": "Models\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:13:08.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:30:23.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\order\\Index.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Index.cshtml",
+              "RelativeToolTip": "Views\\order\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T02:41:30.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\order\\Details.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Details.cshtml",
+              "RelativeToolTip": "Views\\order\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T02:41:10.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\order\\Create.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Create.cshtml",
+              "RelativeToolTip": "Views\\order\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T02:38:50.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WalletRepository.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Repositories\\WalletRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\WalletRepository.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Repositories\\WalletRepository.cs",
+              "RelativeToolTip": "Repositories\\WalletRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:11:43.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:55:28.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "__Topbar.cshtml",
-              "DocumentMoniker": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Views\\Home\\__Topbar.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\__Topbar.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\__Topbar.cshtml",
-              "ToolTip": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Views\\Home\\__Topbar.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\__Topbar.cshtml",
               "RelativeToolTip": "Views\\Home\\__Topbar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -47,51 +527,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Program.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Program.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:24:13.453Z"
+              "WhenOpened": "2024-11-21T12:24:13.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 32,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:22:04.587Z"
+              "WhenOpened": "2024-11-21T12:22:04.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 31,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Views\\Home\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Views\\Home\\_Layout.cshtml",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Home\\_Layout.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T12:21:18.145Z"
+              "WhenOpened": "2024-11-21T12:21:18.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 30,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\act22\\Desktop\\PakinProject-Backend\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T11:41:04.174Z"
+              "WhenOpened": "2024-11-21T11:41:04.174Z",
+              "EditorCaption": ""
             }
           ]
         }

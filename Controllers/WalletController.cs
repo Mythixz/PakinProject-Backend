@@ -34,33 +34,49 @@ public IActionResult Index()
     [HttpPost]
     public ActionResult Deduct(decimal amount, string description)
     {
-        var userId = GetLoggedInUserId();
-        var wallet = _context.UserWallets.FirstOrDefault(w => w.UserId == userId);
-
-        if (wallet == null || wallet.Balance < amount)
+        try
         {
-            return Json(new { success = false, message = "Insufficient balance." });
+            var userId = GetLoggedInUserId();
+            var wallet = _context.UserWallets.FirstOrDefault(w => w.UserId == userId);
+
+            if (wallet == null)
+            {
+                return Json(new { success = false, message = "Wallet not found." });
+            }
+
+            if (wallet.Balance < amount)
+            {
+                return Json(new { success = false, message = "Insufficient balance." });
+            }
+
+            // หักยอดเงิน
+            wallet.Balance -= amount;
+
+            // บันทึก Transaction
+            var transaction = new Transaction
+            {
+                UserId = userId,
+                Amount = amount,
+                TransactionType = "Debit",
+                Description = description,
+                TransactionDate = DateTime.Now
+            };
+
+            _context.Transactions.Add(transaction);
+
+            // บันทึกข้อมูลทั้งหมด
+            _context.SaveChanges();
+
+            return Json(new { success = true, balance = wallet.Balance });
         }
-
-        // หักยอดเงิน
-        wallet.Balance -= amount;
-
-        // บันทึก Transaction
-        var transaction = new Transaction
+        catch (Exception ex)
         {
-            UserId = userId,
-            Amount = amount,
-            TransactionType = "Debit",
-            Description = description,
-            TransactionDate = DateTime.Now
-        };
-        _context.Transactions.Add(transaction);
-        _context.SaveChanges();
-
-        return Json(new { success = true, balance = wallet.Balance });
+            return Json(new { success = false, message = ex.Message });
+        }
     }
 
-private int GetLoggedInUserId()
+
+    private int GetLoggedInUserId()
 {
     if (User?.Identity?.IsAuthenticated != true)
     {

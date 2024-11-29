@@ -1,0 +1,31 @@
+﻿<div class="container mt-5">
+    <h1 class="text-center my-4">Our Products</h1>
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <!-- Product Image -->
+                    <img src="data:image/jpeg;base64,@product.ImageBase64" alt="@product.ProductName" class="card-img-top" style="height: 250px; object-fit: cover;" />
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@product.ProductName</h5>
+                        <p class="card-text">@product.Description</p>
+                        <h6 class="text-muted">@product.Price.ToString("C")</h6>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <!-- View Details Button -->
+                        <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-primary btn-sm w-100">View Details</a>
+                        
+                        <!-- Add to Cart Button -->
+                        <form asp-action="AddToCart" asp-controller="ShoppingCart" method="post" class="mt-2">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <button type="submit" class="btn btn-success btn-sm w-100">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

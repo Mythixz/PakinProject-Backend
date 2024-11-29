@@ -10,18 +10,21 @@ using System.Text;
 public class AccountController : Controller
 {
     private readonly PakinProjectContext _context;
+    private const string PredefinedOtp = "123456"; // กำหนด OTP สำหรับทดสอบ
 
     public AccountController(PakinProjectContext context)
     {
-        _context = context; // Inject DbContext
+        _context = context;
     }
 
+    // ฟังก์ชันสำหรับหน้า Login (GET)
     [HttpGet]
     public IActionResult Login()
     {
         return View();
     }
 
+    // ฟังก์ชันสำหรับหน้า Login (POST)
     [HttpPost]
     public async Task<IActionResult> Login(LoginViewModel model)
     {
@@ -57,12 +60,14 @@ public class AccountController : Controller
         return View(model);
     }
 
+    // ฟังก์ชันสำหรับหน้า Register (GET)
     [HttpGet]
     public IActionResult Register()
     {
         return View();
     }
 
+    // ฟังก์ชันสำหรับหน้า Register (POST)
     [HttpPost]
     public IActionResult Register(RegisterViewModel model)
     {
@@ -101,6 +106,7 @@ public class AccountController : Controller
         return View(model);
     }
 
+    // ฟังก์ชันสำหรับการออกจากระบบ (Logout)
     [HttpPost]
     public async Task<IActionResult> Logout()
     {
@@ -109,6 +115,78 @@ public class AccountController : Controller
         return RedirectToAction("Index", "Home");
     }
 
+    // ฟังก์ชันสำหรับหน้า Forgot Password (GET)
+    [HttpGet]
+    public IActionResult ForgotPassword()
+    {
+        return View();
+    }
+
+    // ฟังก์ชันสำหรับหน้า Forgot Password (POST)
+    [HttpPost]
+    public IActionResult ForgotPassword(string email)
+    {
+        var user = _context.Users.FirstOrDefault(u => u.Email == email);
+        if (user != null)
+        {
+            TempData["Email"] = email; // เก็บอีเมลไว้ชั่วคราว
+            return RedirectToAction("EnterOtp");
+        }
+
+        ModelState.AddModelError("", "Email not found.");
+        return View();
+    }
+
+    // ฟังก์ชันสำหรับหน้า Enter OTP (GET)
+    [HttpGet]
+    public IActionResult EnterOtp()
+    {
+        return View();
+    }
+
+    // ฟังก์ชันสำหรับหน้า Enter OTP (POST)
+    [HttpPost]
+    public IActionResult EnterOtp(string otp)
+    {
+        if (otp == PredefinedOtp) // ตรวจสอบ OTP
+        {
+            return RedirectToAction("ResetPassword");
+        }
+
+        ViewBag.ErrorMessage = "Invalid OTP. Please try again.";
+        return View();
+    }
+
+    // ฟังก์ชันสำหรับหน้า Reset Password (GET)
+    [HttpGet]
+    public IActionResult ResetPassword()
+    {
+        return View();
+    }
+
+    // ฟังก์ชันสำหรับหน้า Reset Password (POST)
+    [HttpPost]
+    public IActionResult ResetPassword(string newPassword)
+    {
+        var email = TempData["Email"]?.ToString();
+        if (!string.IsNullOrEmpty(email))
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            if (user != null)
+            {
+                user.PasswordHash = HashPassword(newPassword);
+                _context.SaveChanges();
+
+                TempData["Message"] = "Password reset successful. Please log in.";
+                return RedirectToAction("Login");
+            }
+        }
+
+        ModelState.AddModelError("", "Something went wrong. Please try again.");
+        return View();
+    }
+
+    // ฟังก์ชันสำหรับ Hash รหัสผ่าน
     private string HashPassword(string password)
     {
         using (var sha256 = SHA256.Create())
@@ -119,6 +197,7 @@ public class AccountController : Controller
         }
     }
 
+    // ฟังก์ชันสำหรับตรวจสอบรหัสผ่านที่ป้อน
     private bool VerifyPassword(string password, string hashedPassword)
     {
         return HashPassword(password) == hashedPassword;

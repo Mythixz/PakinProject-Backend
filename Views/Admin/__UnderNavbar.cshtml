@@ -6,21 +6,21 @@
     <div class="d-flex align-items-center justify-content-between">
         <!-- Logo Section -->
         <div class="logo-section">
-            <a asp-area="" asp-page="/Index" class="navbar-brand p-0">
+            <a asp-controller="Home" asp-action="Index"  class="navbar-brand p-0">
                 <img src="~/landingpage/img/LogoPAWhite.png" alt="Logo" style="width: auto; height: 35px;">
             </a>
         </div>
 
         <!-- Navbar Links (Centered Links) -->
-        <div class="navbar-nav d-flex justify-content-center">
-            <a asp-area="" asp-page="/Index" class="nav-item nav-link">Order</a>
-            <a asp-area="" asp-page="/PC" class="nav-item nav-link">PC</a>
-            <a asp-area="" asp-page="/Console" class="nav-item nav-link">Console</a>
-            <a asp-area="" asp-page="/Mobile" class="nav-item nav-link">Mobile</a>
-            <a asp-area="" asp-page="/Lifestyle" class="nav-item nav-link">Lifestyle</a>
-            <a asp-area="" asp-page="/Services" class="nav-item nav-link">Services</a>
-            <a asp-area="" asp-page="/Support" class="nav-item nav-link">Support</a>
-        </div>
+<div class="navbar-nav d-flex justify-content-center">
+    <a asp-area="" asp-action="Index" class="nav-item nav-link">Dashboard</a>
+    <a asp-area="" asp-action="ManageProducts" class="nav-item nav-link">Manage Products</a>
+    <a asp-area="" asp-action="ManageUsers" class="nav-item nav-link">Manage Users</a>
+    <a asp-area="" asp-action="Orders" class="nav-item nav-link">Orders</a>
+    <a asp-area="" asp-action="Settings" class="nav-item nav-link">Settings</a>
+    <a asp-area="" asp-action="Reports" class="nav-item nav-link">Reports</a>
+</div>
+
     </div>
 </div>
 

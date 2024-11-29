@@ -22,8 +22,8 @@ namespace PakinProject.Controllers
             _httpContextAccessor = httpContextAccessor;
         }
 
-        // สร้างใบแจ้งหนี้ในรูปแบบ PDF
-        public async Task<IActionResult> GenerateInvoice(int orderId)
+        // ฟังก์ชันสร้างใบแจ้งหนี้ในรูปแบบ PDF
+        public async Task<IActionResult> GenerateInvoice(string orderId)
         {
             var order = await _context.Orders.FirstOrDefaultAsync(o => o.OrderId == orderId);
             if (order == null)
@@ -31,10 +31,20 @@ namespace PakinProject.Controllers
                 return NotFound("Order not found.");
             }
 
-            var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductCode == order.ProductCode);
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == order.ProductId);
             if (product == null)
             {
                 return NotFound("Product not found.");
+            }
+
+            string quantityDisplay;
+            if (int.TryParse(order.Quantity.ToString(), out int quantityInt))
+            {
+                quantityDisplay = quantityInt.ToString();
+            }
+            else
+            {
+                quantityDisplay = "Invalid quantity";
             }
 
             // สร้าง PDF
@@ -43,16 +53,14 @@ namespace PakinProject.Controllers
             var gfx = XGraphics.FromPdfPage(page);
             var font = new XFont("Verdana", 12);
 
-            // ใส่ข้อมูลลงใน PDF
             gfx.DrawString($"Invoice for Order {orderId}", font, XBrushes.Black, 20, 40);
-            gfx.DrawString($"Customer ID: {order.CustomerID}", font, XBrushes.Black, 20, 60);
+            gfx.DrawString($"Customer ID: {order.UserEmail}", font, XBrushes.Black, 20, 60);
             gfx.DrawString($"Product: {product.ProductName}", font, XBrushes.Black, 20, 80);
-            gfx.DrawString($"Quantity: {order.Quantity}", font, XBrushes.Black, 20, 100);
+            gfx.DrawString($"Quantity: {quantityDisplay}", font, XBrushes.Black, 20, 100);
             gfx.DrawString($"Total Price: {order.TotalPrice:C}", font, XBrushes.Black, 20, 120);
             gfx.DrawString($"Shipping Address: {order.ShippingAddress}", font, XBrushes.Black, 20, 140);
             gfx.DrawString($"Order Date: {order.CreatedAt:yyyy-MM-dd}", font, XBrushes.Black, 20, 160);
 
-            // ส่ง PDF ไปยังผู้ใช้เพื่อดาวน์โหลด
             using (var ms = new MemoryStream())
             {
                 document.Save(ms);
@@ -68,10 +76,10 @@ namespace PakinProject.Controllers
             var userEmail = _httpContextAccessor.HttpContext.User.Identity.Name;
             if (string.IsNullOrEmpty(userEmail))
             {
-                return RedirectToAction("Login", "Account"); 
+                return RedirectToAction("Login", "Account");
             }
 
-            ViewBag.CustomerEmail = userEmail; 
+            ViewBag.CustomerEmail = userEmail;
             ViewBag.Products = _context.Products.ToList();
             return View();
         }
@@ -81,24 +89,19 @@ namespace PakinProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Order order)
         {
-            if (string.IsNullOrEmpty(order.ProductCode))
-            {
-                ModelState.AddModelError("ProductCode", "Please select a product.");
-            }
-
             if (ModelState.IsValid)
             {
-                var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductCode == order.ProductCode);
+                var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == order.ProductId);
                 if (product == null)
                 {
-                    ModelState.AddModelError("ProductCode", "Product not found.");
+                    ModelState.AddModelError("ProductId", "Product not found.");
                     return View(order);
                 }
 
                 var email = _httpContextAccessor.HttpContext.User.Identity.Name;
                 if (!string.IsNullOrEmpty(email))
                 {
-                    order.CustomerID = email;
+                    order.UserEmail = email;
                 }
                 else
                 {
@@ -106,7 +109,17 @@ namespace PakinProject.Controllers
                     return View(order);
                 }
 
-                order.TotalPrice = product.Price * order.Quantity;
+                if (int.TryParse(order.Quantity.ToString(), out int quantityInt))
+                {
+                    order.TotalPrice = product.Price * quantityInt;
+                }
+                else
+                {
+                    ModelState.AddModelError("Quantity", "Invalid quantity format. Please enter a number.");
+                    return View(order);
+                }
+
+                order.OrderId = Guid.NewGuid().ToString();
 
                 _context.Orders.Add(order);
                 await _context.SaveChangesAsync();
@@ -114,9 +127,9 @@ namespace PakinProject.Controllers
                 var invoiceDTO = new InvoiceDTO
                 {
                     OrderId = order.OrderId,
-                    CustomerID = order.CustomerID,
+                    CustomerID = order.UserEmail,
                     ProductName = product.ProductName,
-                    Quantity = order.Quantity,
+                    Quantity = quantityInt,
                     TotalPrice = order.TotalPrice,
                     ShippingAddress = order.ShippingAddress,
                     CreatedAt = order.CreatedAt
@@ -127,35 +140,6 @@ namespace PakinProject.Controllers
 
             ViewBag.Products = _context.Products.ToList();
             return View(order);
-        }
-
-        // ฟังก์ชันแสดงใบแจ้งหนี้
-        public async Task<IActionResult> Invoice(int orderId)
-        {
-            var order = await _context.Orders.FirstOrDefaultAsync(o => o.OrderId == orderId);
-            if (order == null)
-            {
-                return NotFound("Order not found.");
-            }
-
-            var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductCode == order.ProductCode);
-            if (product == null)
-            {
-                return NotFound("Product not found.");
-            }
-
-            var invoiceDTO = new InvoiceDTO
-            {
-                OrderId = order.OrderId,
-                CustomerID = order.CustomerID,
-                ProductName = product.ProductName,
-                Quantity = order.Quantity,
-                TotalPrice = order.TotalPrice,
-                ShippingAddress = order.ShippingAddress,
-                CreatedAt = order.CreatedAt
-            };
-
-            return View(invoiceDTO);
         }
     }
 }

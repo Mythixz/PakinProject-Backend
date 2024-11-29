@@ -1,0 +1,22 @@
+﻿@model PakinProject.Models.OrderDTO
+
+<h2>Order Details</h2>
+
+<table class="table">
+    <tr>
+        <th>Order ID</th>
+        <td>@Model.OrderId</td>
+    </tr>
+    <tr>
+        <th>User Email</th>
+        <td>@Model.CustomerID</td>
+    </tr>
+    <tr>
+        <th>Total Price</th>
+        <td>@Model.TotalPrice.ToString("C")</td>
+    </tr>
+    <tr>
+        <th>Shipping Address</th>
+        <td>@Model.ShippingAddress</td>
+    </tr>
+</table>

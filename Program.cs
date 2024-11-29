@@ -14,6 +14,7 @@ builder.Services.AddControllersWithViews(options =>
 builder.Services.AddRazorPages();
 builder.Services.AddHttpContextAccessor();
 
+
 // เพิ่มการตั้งค่า DbContext และการเชื่อมต่อฐานข้อมูล
 builder.Services.AddDbContext<PakinProjectContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -50,12 +51,18 @@ app.UseAuthorization();
 
 // เพิ่ม Route สำหรับ Admin และ User
 app.MapControllerRoute(
-    name: "Admin",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+    name: "Admin", 
+    pattern: "Admin/{controller=Home}/{action=Index}/{id?}");  // เส้นทางสำหรับ Admin
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "Order",
+    pattern: "Order/{controller=Order}/{action=Index}/{id?}"); // เส้นทางสำหรับ Order
 
+app.MapControllerRoute(
+    name: "Store",
+    pattern: "Store/{controller=Store}/{action=Index}/{id?}"); // เส้นทางสำหรับ Store
 
+app.MapControllerRoute(
+    name: "default", 
+    pattern: "{controller=Home}/{action=Index}/{id?}");  // เส้นทางพื้นฐาน
 app.Run();
