@@ -1,138 +1,458 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\",
+  "WorkspaceRootPath": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\animate\\animate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\landingpage\\lib\\animate\\animate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\migrations\\pakinprojectcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:migrations\\pakinprojectcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\wow\\wow.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\landingpage\\lib\\wow\\wow.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\migrations\\20241129213013_addpaymentandtransactiontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:migrations\\20241129213013_addpaymentandtransactiontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\wallet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\wallet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\wallet\\deduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\wallet\\deduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|e:\\work\\cmm\\year3_season1\\cmm349 website development\\notlast\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__factcounter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__factcounter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__vendor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__vendor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shared\\order\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shared\\order\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\__vendor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\__vendor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\enterotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\enterotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\pakinproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:pakinproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\__about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\__about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\payment\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\payment\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\__undernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\testimonial-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\landingpage\\img\\testimonial-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\testimonial-2.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\landingpage\\img\\testimonial-2.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\vendor-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\landingpage\\img\\vendor-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\team-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\landingpage\\img\\team-1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__middle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__middle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\migrations\\20241201174724_migrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:migrations\\20241201174724_migrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\migrations\\20241202055605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:migrations\\20241202055605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\migrations\\pakinprojectcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:migrations\\pakinprojectcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\__about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\__about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\__navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\account\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\account\\__topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\store\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\store\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\shoppingcart\\__vendor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\shoppingcart\\__vendor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\orderresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\orderresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\__css.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\admin\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\admin\\__footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__js.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\owlcarousel\\license||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:wwwroot\\landingpage\\lib\\owlcarousel\\license||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\paymentsuccessviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\paymentsuccessviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|c:\\users\\anxyzc\\desktop\\121\\pakin.com_(233_235_237)\\views\\home\\__header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFEDED8-5C3B-493A-84B8-E24C7F03A332}|PakinProject.csproj|solutionrelative:views\\home\\__header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,440 +462,1371 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Success.cshtml",
-              "RelativeDocumentMoniker": "Views\\Payment\\Success.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Success.cshtml",
-              "RelativeToolTip": "Views\\Payment\\Success.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T21:36:32.623Z",
+              "DocumentIndex": 2,
+              "Title": "animate.css",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\animate\\animate.css",
+              "RelativeDocumentMoniker": "wwwroot\\landingpage\\lib\\animate\\animate.css",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\animate\\animate.css",
+              "RelativeToolTip": "wwwroot\\landingpage\\lib\\animate\\animate.css",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-03T00:28:48.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PakinProjectContextModelSnapshot.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\PakinProjectContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\PakinProjectContextModelSnapshot.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\PakinProjectContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\PakinProjectContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:31:14.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20241129213013_AddPaymentAndTransactionTables.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
-              "RelativeToolTip": "Migrations\\20241129213013_AddPaymentAndTransactionTables.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:30:14.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "InvoiceDTO.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\InvoiceDTO.cs",
-              "RelativeDocumentMoniker": "Models\\InvoiceDTO.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\InvoiceDTO.cs",
-              "RelativeToolTip": "Models\\InvoiceDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T02:06:03.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Index.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T16:07:46.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Payment\\Index.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Payment\\Index.cshtml",
-              "RelativeToolTip": "Views\\Payment\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T20:54:32.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAgwHIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:53:38.854Z",
+              "Title": "wow.js",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\wow\\wow.js",
+              "RelativeDocumentMoniker": "wwwroot\\landingpage\\lib\\wow\\wow.js",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\wow\\wow.js",
+              "RelativeToolTip": "wwwroot\\landingpage\\lib\\wow\\wow.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-03T00:28:38.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\ShoppingCart\\Checkout.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T18:13:38.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaymentViewModel.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\PaymentViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\PaymentViewModel.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\PaymentViewModel.cs",
-              "RelativeToolTip": "Models\\PaymentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwFkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:55:36.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAQwJAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T16:00:46.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T08:14:57.443Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "CartItemDTO.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItemDTO.cs",
-              "RelativeDocumentMoniker": "Models\\CartItemDTO.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItemDTO.cs",
-              "RelativeToolTip": "Models\\CartItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T16:02:08.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "Models\\Payment.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Payment.cs",
-              "RelativeToolTip": "Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:52:39.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "Models\\Transaction.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Transaction.cs",
-              "RelativeToolTip": "Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:21:50.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Context.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Data\\Context.cs",
-              "RelativeDocumentMoniker": "Data\\Context.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Data\\Context.cs",
-              "RelativeToolTip": "Data\\Context.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T02:19:15.725Z",
-              "EditorCaption": ""
+              "Title": "__UnderNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__UnderNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\__UnderNavbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__UnderNavbar.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\__UnderNavbar.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:05:26.43Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "CheckoutDTO.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CheckoutDTO.cs",
-              "RelativeDocumentMoniker": "Models\\CheckoutDTO.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CheckoutDTO.cs",
-              "RelativeToolTip": "Models\\CheckoutDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T02:06:48.887Z",
-              "EditorCaption": ""
+              "Title": "__UnderNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__UnderNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\__UnderNavbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__UnderNavbar.cshtml",
+              "RelativeToolTip": "Views\\Payment\\__UnderNavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:05:09.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Home\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:39:09.399Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Deduct.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Deduct.cshtml",
-              "RelativeDocumentMoniker": "Views\\Wallet\\Deduct.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Deduct.cshtml",
-              "RelativeToolTip": "Views\\Wallet\\Deduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Title": "__UnderNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__UnderNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\__UnderNavbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__UnderNavbar.cshtml",
+              "RelativeToolTip": "Views\\Store\\__UnderNavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T21:19:17.701Z",
+              "WhenOpened": "2024-12-02T09:08:04.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "__Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\__Footer.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__Footer.cshtml",
+              "RelativeToolTip": "Views\\Account\\__Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:54:46.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T20:17:18.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Wallet\\Index.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Wallet\\Index.cshtml",
-              "RelativeToolTip": "Views\\Wallet\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Services.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Services.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Services.cshtml",
+              "RelativeToolTip": "Views\\Home\\Services.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T21:19:11.827Z",
+              "WhenOpened": "2024-12-01T16:39:50.626Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T15:10:28.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAIAwwKkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:44:08.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "__Team.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Team.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Team.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Team.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Team.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T18:57:48.911Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "WalletController.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\WalletController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WalletController.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\WalletController.cs",
-              "RelativeToolTip": "Controllers\\WalletController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAiwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:18:36.461Z",
-              "EditorCaption": ""
+              "Title": "__Topbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__Topbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\__Topbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__Topbar.cshtml",
+              "RelativeToolTip": "Views\\Payment\\__Topbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T22:06:54.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T16:04:08.049Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "__Testimonial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Testimonial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Testimonial.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Testimonial.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Testimonial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:39:07.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "__FactCounter.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__FactCounter.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__FactCounter.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__FactCounter.cshtml",
+              "RelativeToolTip": "Views\\Home\\__FactCounter.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswDgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T22:44:39.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "__Vendor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Vendor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Vendor.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Vendor.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Vendor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:39:31.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswCsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T20:17:50.293Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-29T15:46:26.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:55:25.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Wallet.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Wallet.cs",
-              "RelativeDocumentMoniker": "Models\\Wallet.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\Wallet.cs",
-              "RelativeToolTip": "Models\\Wallet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T02:13:08.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "Models\\CartItem.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Models\\CartItem.cs",
-              "RelativeToolTip": "Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T16:30:23.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\order\\Index.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Index.cshtml",
-              "RelativeToolTip": "Views\\order\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBsAAAAUAAAAAAAAAA==",
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T02:41:30.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T09:17:16.345Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\order\\Details.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Details.cshtml",
-              "RelativeToolTip": "Views\\order\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Title": "__Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\__Navbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__Navbar.cshtml",
+              "RelativeToolTip": "Views\\Payment\\__Navbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T02:41:10.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T09:05:04.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\order\\Create.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\order\\Create.cshtml",
-              "RelativeToolTip": "Views\\order\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "__css.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__css.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\__css.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__css.cshtml",
+              "RelativeToolTip": "Views\\Payment\\__css.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T02:38:50.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T22:06:46.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "WalletRepository.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Repositories\\WalletRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\WalletRepository.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Repositories\\WalletRepository.cs",
-              "RelativeToolTip": "Repositories\\WalletRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T02:11:43.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Services\\OrderService.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Services\\OrderService.cs",
-              "RelativeToolTip": "Services\\OrderService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:55:28.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "__Topbar.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\__Topbar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\__Topbar.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\__Topbar.cshtml",
-              "RelativeToolTip": "Views\\Home\\__Topbar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\Success.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Success.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T12:34:24.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T22:08:38.306Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:24:13.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:22:04.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\_Layout.cshtml",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Views\\Home\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Home\\_Layout.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Payment\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T12:21:18.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T22:06:53.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Invoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Shared\\order\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\order\\Invoice.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Shared\\order\\Invoice.cshtml",
+              "RelativeToolTip": "Views\\Shared\\order\\Invoice.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T22:07:34.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T22:00:08.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "__Vendor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__Vendor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\__Vendor.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__Vendor.cshtml",
+              "RelativeToolTip": "Views\\Store\\__Vendor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:08:08.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:39:06.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T21:54:00.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T20:43:19.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EnterOtp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\EnterOtp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\EnterOtp.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\EnterOtp.cshtml",
+              "RelativeToolTip": "Views\\Account\\EnterOtp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T20:43:10.681Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "E:\\Work\\CMM\\Year3_Season1\\CMM349 Website development\\notlast\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Title": "PakinProject",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\PakinProject.csproj",
+              "RelativeDocumentMoniker": "PakinProject.csproj",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\PakinProject.csproj",
+              "RelativeToolTip": "PakinProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T08:32:03.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAAEBAAAAAAAAAADgvxIBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:06:26.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "__Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\__Navbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__Navbar.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\__Navbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:42:43.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "__About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\__About.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__About.cshtml",
+              "RelativeToolTip": "Views\\Store\\__About.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAIAwwGkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:15:20.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "__Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\__Navbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__Navbar.cshtml",
+              "RelativeToolTip": "Views\\Store\\__Navbar.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvyUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:32:32.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAcwOYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T11:41:04.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T19:49:35.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "__Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\__Footer.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Payment\\__Footer.cshtml",
+              "RelativeToolTip": "Views\\Payment\\__Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T19:44:48.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\Details.cshtml",
+              "RelativeToolTip": "Views\\Store\\Details.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:58:16.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\Home\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:20:15.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:48:39.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "__UnderNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__UnderNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__UnderNavbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__UnderNavbar.cshtml",
+              "RelativeToolTip": "Views\\Home\\__UnderNavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:39:28.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAYwIUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:41:54.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "__UnderNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__UnderNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\__UnderNavbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__UnderNavbar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\__UnderNavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:06:33.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "__UnderNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__UnderNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\__UnderNavbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__UnderNavbar.cshtml",
+              "RelativeToolTip": "Views\\Account\\__UnderNavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:50:50.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T19:40:49.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv1kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T19:48:32.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\Home\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:46:00.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:20:16.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Error.cshtml",
+              "RelativeToolTip": "Views\\Home\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:20:00.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\Index.cshtml",
+              "RelativeToolTip": "Views\\Store\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:58:14.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "__Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Navbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Navbar.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Navbar.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBZwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:39:07.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "__Service.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Service.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Service.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Service.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Service.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAIBZwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T15:57:52.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "__Topbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Topbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Topbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Topbar.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Topbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:39:03.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Home\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:39:39.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Blog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Blog.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Blog.cshtml",
+              "RelativeToolTip": "Views\\Home\\Blog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:39:47.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:20:02.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:53:35.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "__Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Contact.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Contact.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:21:21.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "testimonial-1.jpg - Bitmap [100x100, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\testimonial-1.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\landingpage\\img\\testimonial-1.jpg",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\testimonial-1.jpg - Bitmap [100x100, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\landingpage\\img\\testimonial-1.jpg - Bitmap [100x100, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-02T18:16:32.614Z",
+              "EditorCaption": " - Bitmap [100x100, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "testimonial-2.jpg - Bitmap [100x100, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\testimonial-2.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\landingpage\\img\\testimonial-2.jpg",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\testimonial-2.jpg - Bitmap [100x100, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\landingpage\\img\\testimonial-2.jpg - Bitmap [100x100, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-02T18:16:31.955Z",
+              "EditorCaption": " - Bitmap [100x100, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "vendor-1.jpg - Bitmap [150x50, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\vendor-1.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\landingpage\\img\\vendor-1.jpg",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\vendor-1.jpg - Bitmap [150x50, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\landingpage\\img\\vendor-1.jpg - Bitmap [150x50, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-02T18:16:30.446Z",
+              "EditorCaption": " - Bitmap [150x50, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "team-1.jpg - Bitmap [1440x1794, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\team-1.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\landingpage\\img\\team-1.jpg",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\img\\team-1.jpg - Bitmap [1440x1794, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\landingpage\\img\\team-1.jpg - Bitmap [1440x1794, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-02T18:16:28.284Z",
+              "EditorCaption": " - Bitmap [1440x1794, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "__css.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__css.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__css.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__css.cshtml",
+              "RelativeToolTip": "Views\\Home\\__css.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:21:23.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "__About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__About.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__About.cshtml",
+              "RelativeToolTip": "Views\\Home\\__About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T15:09:50.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "__Middle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Middle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Middle.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Middle.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Middle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBgAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:25:36.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "__js.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__js.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\__js.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__js.cshtml",
+              "RelativeToolTip": "Views\\Account\\__js.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:07:06.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20241202055605_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Migrations\\20241202055605_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241202055605_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Migrations\\20241202055605_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241202055605_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:54:58.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "PakinProjectContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Migrations\\PakinProjectContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\PakinProjectContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Migrations\\PakinProjectContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\PakinProjectContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:54:57.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "__css.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__css.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\__css.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__css.cshtml",
+              "RelativeToolTip": "Views\\Account\\__css.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:28:30.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20241201174724_MigrationName.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Migrations\\20241201174724_MigrationName.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241201174724_MigrationName.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Migrations\\20241201174724_MigrationName.cs",
+              "RelativeToolTip": "Migrations\\20241201174724_MigrationName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:47:24.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "__About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\__About.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__About.cshtml",
+              "RelativeToolTip": "Views\\Admin\\__About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:47:57.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:40:03.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "Models\\CartItemDTO.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\CartItemDTO.cs",
+              "RelativeToolTip": "Models\\CartItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:40:44.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Store\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBZwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:52:31.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Account\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:50:49.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "__css.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__css.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\__css.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\__css.cshtml",
+              "RelativeToolTip": "Views\\Store\\__css.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:17:02.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwEwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:41:21.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "__Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\__Navbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__Navbar.cshtml",
+              "RelativeToolTip": "Views\\Account\\__Navbar.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:25:29.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "__Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\__Navbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__Navbar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\__Navbar.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:23:25.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "__js.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__js.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\__js.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__js.cshtml",
+              "RelativeToolTip": "Views\\Admin\\__js.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T09:01:47.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "__Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Footer.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Footer.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Footer.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:39:11.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "__Topbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__Topbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\__Topbar.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Account\\__Topbar.cshtml",
+              "RelativeToolTip": "Views\\Account\\__Topbar.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:50:48.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Store\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\Store\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:58:18.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\_Layout.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:42:06.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "__css.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__css.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\__css.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__css.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\__css.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:42:36.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "__Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\__Footer.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__Footer.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\__Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:42:37.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "__js.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__js.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\__js.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__js.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\__js.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:42:38.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Admin\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBZwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:26:44.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:43:56.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:43:07.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "__Vendor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__Vendor.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\__Vendor.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\ShoppingCart\\__Vendor.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\__Vendor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:42:15.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "OrderResult.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\OrderResult.cs",
+              "RelativeDocumentMoniker": "Models\\OrderResult.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\OrderResult.cs",
+              "RelativeToolTip": "Models\\OrderResult.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:42:16.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\OrderDTO.cs",
+              "RelativeToolTip": "Models\\OrderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:41:56.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:42:07.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:41:26.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:42:25.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\PaymentDto.cs",
+              "RelativeToolTip": "Models\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:42:35.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "InvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\InvoiceDTO.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\InvoiceDTO.cs",
+              "RelativeToolTip": "Models\\InvoiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:41:14.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "Models\\CheckoutDTO.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\CheckoutDTO.cs",
+              "RelativeToolTip": "Models\\CheckoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:41:02.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:29:14.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:29:16.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "__Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\__Footer.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__Footer.cshtml",
+              "RelativeToolTip": "Views\\Admin\\__Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:26:53.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "__css.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__css.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\__css.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Admin\\__css.cshtml",
+              "RelativeToolTip": "Views\\Admin\\__css.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:28:18.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "__js.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__js.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__js.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__js.cshtml",
+              "RelativeToolTip": "Views\\Home\\__js.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:05:25.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "LICENSE",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\owlcarousel\\LICENSE",
+              "RelativeDocumentMoniker": "wwwroot\\landingpage\\lib\\owlcarousel\\LICENSE",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\wwwroot\\landingpage\\lib\\owlcarousel\\LICENSE",
+              "RelativeToolTip": "wwwroot\\landingpage\\lib\\owlcarousel\\LICENSE",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-02T07:11:46.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:41:12.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:59:05.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "PaymentSuccessViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\PaymentSuccessViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentSuccessViewModel.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\PaymentSuccessViewModel.cs",
+              "RelativeToolTip": "Models\\PaymentSuccessViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:11:50.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\PaymentViewModel.cs",
+              "RelativeToolTip": "Models\\PaymentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:42:50.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:48:35.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:43:32.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "__Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Header.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Header.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Header.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:28:34.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "__Hero.cshtml",
+              "DocumentMoniker": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Hero.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\__Hero.cshtml",
+              "ToolTip": "C:\\Users\\Anxyzc\\Desktop\\121\\Pakin.com_(233_235_237)\\Views\\Home\\__Hero.cshtml",
+              "RelativeToolTip": "Views\\Home\\__Hero.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:39:37.201Z"
             }
           ]
         }

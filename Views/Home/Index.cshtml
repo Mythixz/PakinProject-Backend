@@ -13,21 +13,18 @@
 @await Html.PartialAsync("__Features")
 <!-- Features Start -->
 <!-- Service Start -->
+@await Html.PartialAsync("__Middle")
+
+<div id="service">
 @await Html.PartialAsync("__Service")
+</div>
 <!-- Service End -->
-<!-- Pricing Plan Start -->
-@await Html.PartialAsync("__PricingPlan")
-<!-- Pricing Plan End -->
-<!-- Quote Start -->
-@await Html.PartialAsync("__Quote")
-<!-- Quote End -->
+
 <!-- Testimonial Start -->
 @await Html.PartialAsync("__Testimonial")
 <!-- Testimonial End -->
 <!-- Team Start -->
-@await Html.PartialAsync("__Team")
+<div id="team">
+    @await Html.PartialAsync("__Team")
+</div>
 <!-- Team End -->
-<!-- Blog Start -->
-@await Html.PartialAsync("__Blog")
-<!-- Blog Start -->
-<!-- Vendor Start -->

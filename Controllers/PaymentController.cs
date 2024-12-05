@@ -1,114 +1,200 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PakinProject.Data;
 using PakinProject.Models;
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
 using System;
-using System.Linq;
+using System.Collections.Generic;
+using System.IO;
 
-public class PaymentController : Controller
+namespace PakinProject.Controllers
 {
-    private readonly PakinProjectContext _context;
-
-    public PaymentController(PakinProjectContext context)
+    public class PaymentController : Controller
     {
-        _context = context;
-    }
+        private readonly PakinProjectContext _context;
 
-    // หน้าแสดงข้อมูลการชำระเงิน
-    public IActionResult Index(decimal totalPrice)
-    {
-        ViewBag.TotalPrice = totalPrice;
-        return View();
-    }
-
-    // ดำเนินการประมวลผลการชำระเงิน
-    [HttpPost]
-    public IActionResult Process(CheckoutDTO model)
-    {
-        if (!ModelState.IsValid)
+        public PaymentController(PakinProjectContext context)
         {
-            return View("Index", model);
+            _context = context;
         }
 
-        // ดึง UserId จาก Claims
-        var userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value ?? "0");
-        if (userId == 0)
+        public IActionResult Index(decimal? totalPrice)
         {
-            return Unauthorized("User not logged in.");
+            if (totalPrice == null || totalPrice <= 0)
+            {
+                return RedirectToAction("Error", "Home", new { message = "Invalid total price." });
+            }
+
+            var paymentViewModel = new PaymentViewModel
+            {
+                TotalAmount = totalPrice.Value,
+                PaymentMethods = new List<string> { "CreditCard", "COD" }
+            };
+
+            return View(paymentViewModel);
         }
 
-        // ตรวจสอบวิธีการชำระเงิน
-        var paymentResult = ProcessPayment(model, userId);
-
-        if (!paymentResult.success)
+        [HttpPost]
+        public IActionResult Process(PaymentDto model)
         {
-            ModelState.AddModelError("", paymentResult.message);
-            return View("Index", model);
-        }
-
-        // บันทึกการชำระเงินในฐานข้อมูล
-        SavePaymentRecord(model, userId);
-
-        return RedirectToAction("Success");
-    }
-
-    // หน้าการชำระเงินสำเร็จ
-    public IActionResult Success()
-    {
-        return View();
-    }
-
-    // ฟังก์ชันประมวลผลการชำระเงิน
-    private (bool success, string message) ProcessPayment(CheckoutDTO model, int userId)
-    {
-        switch (model.PaymentMethod)
-        {
-            case "CreditCard":
-                // จำลองการชำระเงินด้วยบัตรเครดิต (ในระบบจริงควรเชื่อมต่อ API ของ Payment Gateway)
-                return (true, "Payment completed successfully.");
-
-            case "Wallet":
-                var wallet = _context.UserWallets.FirstOrDefault(w => w.UserId == userId);
-                if (wallet == null || wallet.Balance < model.TotalPrice)
+            if (!ModelState.IsValid)
+            {
+                var paymentViewModel = new PaymentViewModel
                 {
-                    return (false, "Insufficient wallet balance.");
-                }
+                    TotalAmount = model.TotalAmount,
+                    PaymentMethods = new List<string> { "CreditCard", "COD" },
+                    SelectedPaymentMethod = model.SelectedPaymentMethod,
+                    Address = model.Address
+                };
 
-                // หักเงินจาก Wallet
-                wallet.Balance -= model.TotalPrice;
+                return View("Index", paymentViewModel);
+            }
 
-                // เพิ่ม Transaction การหักเงิน
-                _context.Transactions.Add(new Transaction
+            try
+            {
+                var customerId = User.Identity?.Name ?? "Guest";
+
+                var payment = new Payment
                 {
-                    UserId = userId,
-                    Amount = model.TotalPrice,
-                    TransactionType = "Debit",
-                    Description = "Payment for order",
-                    TransactionDate = DateTime.Now
+                    CustomerId = customerId,
+                    Amount = model.TotalAmount,
+                    PaymentMethod = model.SelectedPaymentMethod,
+                    PaymentDate = DateTime.Now,
+                    Address = model.Address
+                };
+
+                _context.Payments.Add(payment);
+                _context.SaveChanges();
+
+                return RedirectToAction("Success", new { orderId = payment.Id });
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"An error occurred: {ex.Message}");
+
+                var paymentViewModel = new PaymentViewModel
+                {
+                    TotalAmount = model.TotalAmount,
+                    PaymentMethods = new List<string> { "CreditCard", "COD" },
+                    SelectedPaymentMethod = model.SelectedPaymentMethod,
+                    Address = model.Address
+                };
+
+                return View("Index", paymentViewModel);
+            }
+        }
+
+        public IActionResult Success(int orderId)
+        {
+            var payment = _context.Payments.Find(orderId);
+            if (payment == null)
+            {
+                return RedirectToAction("Error", "Home", new { message = "Order not found." });
+            }
+
+            var successViewModel = new PaymentSuccessViewModel
+            {
+                OrderId = payment.Id,
+                TotalAmount = payment.Amount,
+                PaymentMethod = payment.PaymentMethod,
+                Address = payment.Address
+            };
+
+            return View(successViewModel);
+        }
+
+        public IActionResult GenerateInvoicePdf(int orderId)
+        {
+            var payment = _context.Payments.Find(orderId);
+            if (payment == null)
+            {
+                return RedirectToAction("Error", "Home", new { message = "Order not found." });
+            }
+
+            var invoice = new InvoiceDTO
+            {
+                OrderId = orderId.ToString(),
+                CustomerID = payment.CustomerId,
+                ProductName = "Sample Product",
+                Quantity = 1,
+                TotalPrice = payment.Amount,
+                ShippingAddress = payment.Address,
+                CreatedAt = payment.PaymentDate
+            };
+
+            var thaiFontPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "fonts", "Sarabun-Regular.ttf");
+
+            var document = Document.Create(container =>
+            {
+                container.Page(page =>
+                {
+                    page.Margin(50);
+                    page.Size(PageSizes.A4);
+
+                    page.Header()
+                        .Text("Invoice")
+                        .FontSize(24)
+                        .FontFamily(thaiFontPath)
+                        .Bold()
+                        .AlignCenter();
+
+                    page.Content().Table(table =>
+                    {
+                        table.ColumnsDefinition(columns =>
+                        {
+                            columns.RelativeColumn(1); // คอลัมน์สำหรับคำอธิบาย
+                            columns.RelativeColumn(3); // คอลัมน์สำหรับรายละเอียด
+                        });
+
+                        // ส่วนหัวของตาราง
+                        table.Header(header =>
+                        {
+                            header.Cell().BorderBottom(1).Padding(5).Text("Description").FontFamily(thaiFontPath).FontSize(12).Bold();
+                            header.Cell().BorderBottom(1).Padding(5).Text("Details").FontFamily(thaiFontPath).FontSize(12).Bold();
+                        });
+
+                        // เพิ่มข้อมูลลงในตาราง
+                        table.Cell().BorderBottom(1).Padding(5).Text("Order ID:").FontFamily(thaiFontPath).Bold();
+                        table.Cell().BorderBottom(1).Padding(5).Text(invoice.OrderId).FontFamily(thaiFontPath);
+
+                        table.Cell().BorderBottom(1).Padding(5).Text("Customer ID:").FontFamily(thaiFontPath).Bold();
+                        table.Cell().BorderBottom(1).Padding(5).Text(invoice.CustomerID).FontFamily(thaiFontPath);
+
+                        table.Cell().BorderBottom(1).Padding(5).Text("Product Name:").FontFamily(thaiFontPath).Bold();
+                        table.Cell().BorderBottom(1).Padding(5).Text(invoice.ProductName).FontFamily(thaiFontPath);
+
+                        table.Cell().BorderBottom(1).Padding(5).Text("Quantity:").FontFamily(thaiFontPath).Bold();
+                        table.Cell().BorderBottom(1).Padding(5).Text(invoice.Quantity.ToString()).FontFamily(thaiFontPath);
+
+                        table.Cell().BorderBottom(1).Padding(5).Text("Total Price:").FontFamily(thaiFontPath).Bold();
+                        table.Cell().BorderBottom(1).Padding(5).Text(invoice.TotalPrice.ToString("C", new System.Globalization.CultureInfo("th-TH"))).FontFamily(thaiFontPath);
+
+                        table.Cell().BorderBottom(1).Padding(5).Text("Shipping Address:").FontFamily(thaiFontPath).Bold();
+                        table.Cell().BorderBottom(1).Padding(5).Text(invoice.ShippingAddress).FontFamily(thaiFontPath);
+
+                        table.Cell().BorderBottom(1).Padding(5).Text("Created At:").FontFamily(thaiFontPath).Bold();
+                        table.Cell().BorderBottom(1).Padding(5).Text(invoice.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss")).FontFamily(thaiFontPath);
+                    });
+
+                    page.Footer()
+                        .AlignCenter()
+                        .Text($"Generated on: {DateTime.Now:yyyy-MM-dd HH:mm:ss}")
+                        .FontFamily(thaiFontPath)
+                        .FontSize(10);
                 });
-                return (true, "Payment completed using Wallet.");
+            });
 
-            case "COD":
-                // ไม่มีการประมวลผลเพิ่มเติมสำหรับ COD
-                return (true, "Payment will be made upon delivery.");
-
-            default:
-                return (false, "Invalid payment method.");
+            using (var stream = new MemoryStream())
+            {
+                document.GeneratePdf(stream);
+                return File(stream.ToArray(), "application/pdf", $"Invoice_{invoice.OrderId}.pdf");
+            }
         }
-    }
 
-    // ฟังก์ชันบันทึกการชำระเงินในฐานข้อมูล
-    private void SavePaymentRecord(CheckoutDTO model, int userId)
-    {
-        var payment = new Payment
+        private void CellStyle(IContainer container)
         {
-            UserId = userId,
-            PaymentMethod = model.PaymentMethod,
-            Amount = model.TotalPrice,
-            PaymentDate = DateTime.Now,
-            Address = model.ShippingAddress
-        };
-
-        _context.Payments.Add(payment);
-        _context.SaveChanges();
+            container.PaddingVertical(5).Border(1).BorderColor(Colors.Grey.Lighten2);
+        }
     }
 }

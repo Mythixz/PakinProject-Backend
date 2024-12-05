@@ -4,61 +4,62 @@
     ViewData["Title"] = "Product Details";
 }
 
-<h1 class="text-center my-4">Product Details</h1>
-
-<div class="container">
-    <h4 class="text-info">Product Information</h4>
-    <hr />
-    <div class="card">
-        <div class="card-body">
-            <dl class="row">
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.ProductCode)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.ProductCode)
-                </dd>
-
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.ProductName)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.ProductName)
-                </dd>
-
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.Description)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Description)
-                </dd>
-
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.Price)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Price)
-                </dd>
-
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.ImageBase64)
-                </dt>
-                <dd class="col-sm-8">
-                    @if (!string.IsNullOrEmpty(Model.ImageBase64))
-                    {
-                        <img src="data:image/png;base64,@Model.ImageBase64" style="width:150px; height:auto;" alt="Product Image" />
-                    }
-                    else
-                    {
-                        <span>No Image Available</span>
-                    }
-                </dd>
-            </dl>
-        </div>
-    </div>
-
-    <div class="mt-4">
-        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Edit</a>
-        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
-    </div>
+<div class="bg-container">
+    <img src="/landingpage/img/bg-admin.jpg" alt="Background" class="bg-fullscreen">
 </div>
+
+<body>
+    <!-- Product Details Card -->
+    <div class="container">
+            <h2 class="text-center">Product Details</h2>
+            <p class="text-center">Review the product's information below.</p>
+
+            <div class="row">
+                <div class="col-md-9 mx-auto">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h4>@Html.DisplayFor(model => model.ProductName)</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <!-- Left Section: Product Details -->
+                                <div class="col-md-6">
+                                    <dl class="row">
+                                        <dt class="col-sm-4">Product Code</dt>
+                                        <dd class="col-sm-8">@Html.DisplayFor(model => model.ProductCode)</dd>
+
+                                        <dt class="col-sm-4">Description</dt>
+                                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+
+                                        <dt class="col-sm-4">Price</dt>
+                                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
+
+                                        <dt class="col-sm-4">Category</dt>
+                                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Category)</dd>
+
+                                        <dt class="col-sm-4">Stock Quantity</dt>
+                                        <dd class="col-sm-8">@Html.DisplayFor(model => model.StockQuantity)</dd>
+                                    </dl>
+                                </div>
+                                <!-- Right Section: Product Image -->
+                                <div class="col-md-6 text-center">
+                                    @if (!string.IsNullOrEmpty(Model.ImageBase64))
+                                    {
+                                        <img src="data:image/png;base64,@Model.ImageBase64" class="img-thumbnail" style="max-width: 100%; height: auto;" alt="Product Image" />
+                                    }
+                                    else
+                                    {
+                                        <span>No Image Available</span>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning me-2">Edit</a>
+                            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>

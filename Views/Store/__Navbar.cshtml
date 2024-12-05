@@ -2,9 +2,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <div class="container-fluid">
             <!-- Logo Section -->
-            <button type="button" class="btn text-primary mx-2" data-bs-toggle="modal" data-bs-target="#searchModal">
-                <i class="fa fa-search"></i> <!-- ไอคอน Search -->
-            </button>
 
             <!-- Navbar Toggle for Mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,12 +9,20 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-center">
                     @if (User.Identity.IsAuthenticated)
+
                     {
                         <!-- Display Username -->
                         <li class="nav-item">
                             <a class="nav-link text-primary" href="#">Welcome, @User.Identity.Name</a>
+                        </li>
+                        <!-- Cart Icon -->
+                        <li class="nav-item">
+                            <a href="/ShoppingCart/Index" class="nav-link position-relative text-primary">
+                                <i class="fa fa-shopping-cart"></i> <!-- ไอคอนตะกร้าสินค้า -->
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cart-count"></span>
+                            </a>
                         </li>
                         <!-- Logout Button -->
                         <li class="nav-item">
@@ -26,7 +31,9 @@
                             </form>
                         </li>
                     }
+
                     else
+
                     {
                         <!-- Login and Register Links -->
                         <li class="nav-item">
@@ -40,3 +47,4 @@
             </div>
         </div>
     </nav>
+</div>

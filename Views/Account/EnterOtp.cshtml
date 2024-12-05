@@ -1,18 +1,36 @@
 ﻿@{
-    ViewData["Title"] = "Enter OTP";
+    ViewData["Title"] = "กรอกรหัส OTP";
+    Layout = "~/Views/Account/_Layout.cshtml";
 }
-
-<h2>Enter OTP</h2>
-
-@if (ViewBag.ErrorMessage != null)
-{
-    <p style="color: red;">@ViewBag.ErrorMessage</p>
-}
-
-<form asp-action="EnterOtp" method="post">
-    <div>
-        <label for="Otp">OTP:</label>
-        <input type="text" id="Otp" name="otp" required />
+<body>
+    <!-- Fullscreen Background -->
+    <div class="bg-container">
+        <img src="/landingpage/img/bg-otp.jpg" alt="Background" class="bg-fullscreen">
     </div>
-    <button type="submit">Verify</button>
-</form>
+
+    <!-- OTP Card -->
+    <div class="container">
+        <div class="login-card">
+            <h2>กรอกรหัส OTP</h2>
+            <p>กรุณากรอกรหัส OTP ที่ส่งไปยังอีเมลของคุณเพื่อดำเนินการต่อ</p>
+
+            <!-- Error Message -->
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+
+            <form asp-action="EnterOtp" method="post">
+                <div class="form-group">
+                    <label for="Otp">รหัส OTP:</label>
+                    <input type="text" id="Otp" name="otp" class="form-control" placeholder="กรอกรหัส OTP" required />
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary w-100">ยืนยัน</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

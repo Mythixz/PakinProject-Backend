@@ -13,17 +13,13 @@
 
         <!-- Navbar Links (Centered Links) -->
         <div class="navbar-nav d-flex justify-content-center">
-        <a asp-controller="Store" asp-action="Index" class="nav-item nav-link">Store</a>
-        <a asp-controller="Store" asp-action="PC" class="nav-item nav-link">PC</a>
-        <a asp-controller="Store" asp-action="Console" class="nav-item nav-link">Console</a>
-        <a asp-controller="Store" asp-action="Mobile" class="nav-item nav-link">Mobile</a>
-        <a asp-controller="Store" asp-action="Lifestyle" class="nav-item nav-link">Lifestyle</a>
-        <a asp-controller="Store" asp-action="Services" class="nav-item nav-link">Services</a>
-        <a asp-controller="Store" asp-action="Support" class="nav-item nav-link">Support</a>
+            <a asp-controller="Store" asp-action="Index" class="nav-item nav-link" asp-route-category="">Store</a>
+            <a asp-controller="Store" asp-action="Index" asp-route-category="PC" class="nav-item nav-link">PC</a>
+            <a asp-controller="Store" asp-action="Index" asp-route-category="Console" class="nav-item nav-link">Console</a>
+            <a asp-controller="Store" asp-action="Index" asp-route-category="Mobile" class="nav-item nav-link">Mobile</a>
+            <a asp-controller="Store" asp-action="Index" asp-route-category="Accessories" class="nav-item nav-link">Accessories</a>
+            <a href="#service" class="nav-item nav-link">Service</a>
+            <a href="#team" class="nav-item nav-link">Support</a>
         </div>
     </div>
 </div>
-
-
-
-

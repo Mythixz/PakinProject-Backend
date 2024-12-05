@@ -24,13 +24,15 @@
 
             <form asp-action="Login" method="post">
                 <div class="form-group">
-                    <label for="Email">Email:</label>   
+                    <label for="Email">Email:</label>
                     <input type="email" asp-for="Email" class="form-control">
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="form-group position-relative">
                     <label for="Password">Password:</label>
-                    <input type="password" asp-for="Password" class="form-control">
+                    <input type="password" asp-for="Password" class="form-control" id="passwordInput">
+                    <button type="button" class="btn btn-link position-absolute password-toggle-btn" id="togglePassword">
+                    </button>
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
@@ -41,4 +43,22 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const togglePassword = document.getElementById('togglePassword');
+            const passwordInput = document.getElementById('passwordInput');
+            const toggleIcon = document.getElementById('toggleIcon');
+
+            togglePassword.addEventListener('click', () => {
+                // Toggle password visibility
+                const isPassword = passwordInput.getAttribute('type') === 'password';
+                passwordInput.setAttribute('type', isPassword ? 'text' : 'password');
+
+                // Toggle icon
+                toggleIcon.classList.toggle('fa-eye');
+                toggleIcon.classList.toggle('fa-eye-slash');
+            });
+        });
+    </script>
 </body>

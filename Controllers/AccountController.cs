@@ -30,31 +30,41 @@ public class AccountController : Controller
     {
         if (ModelState.IsValid)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
-            if (user != null && VerifyPassword(model.Password, user.PasswordHash))
+            try
             {
-                var claims = new List<Claim>
+                var user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
+                if (user != null && VerifyPassword(model.Password, user.PasswordHash))
                 {
-                    new Claim(ClaimTypes.Name, user.Username),
-                    new Claim(ClaimTypes.Email, user.Email),
-                    new Claim("UserId", user.Id.ToString()),
-                    new Claim(ClaimTypes.Role, user.Role) // ใช้ Role จากฐานข้อมูล
-                };
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, user.Username),
+                        new Claim(ClaimTypes.Email, user.Email),
+                        new Claim("UserId", user.Id.ToString()),
+                        new Claim(ClaimTypes.Role, user.Role),
+                        new Claim("IsAdmin", user.IsAdmin.ToString()) // เพิ่ม Claim IsAdmin
+                    };
 
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
 
-                TempData["Message"] = $"Welcome back, {user.Username}!";
-                return RedirectToAction("Index", user.Role == "Admin" ? "Admin" : "Store");
+                    TempData["Message"] = $"Welcome back, {user.Username}!";
+
+                    // Redirect based on role
+                    return RedirectToAction("Index", user.Role.Equals("Admin", StringComparison.OrdinalIgnoreCase) ? "Admin" : "Store");
+                }
+
+                ViewBag.ErrorMessage = "อีเมลหรือรหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง";
             }
-
-            ViewBag.ErrorMessage = "Invalid email or password. Please try again.";
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"เกิดข้อผิดพลาดขณะเข้าสู่ระบบ: {ex.Message}");
+            }
         }
         else
         {
-            ViewBag.ErrorMessage = "Please fill out the form correctly.";
+            ViewBag.ErrorMessage = "กรุณากรอกข้อมูลให้ครบถ้วน";
         }
 
         return View(model);
@@ -79,28 +89,27 @@ public class AccountController : Controller
                 return View(model);
             }
 
-            var user = new User
+            try
             {
-                Username = model.Email.Split('@')[0],
-                Email = model.Email,
-                PasswordHash = HashPassword(model.Password),
-                Role = "User" // ค่าเริ่มต้น Role เป็น User
-            };
+                var user = new User
+                {
+                    Username = model.Email.Split('@')[0],
+                    Email = model.Email,
+                    PasswordHash = HashPassword(model.Password),
+                    Role = "User", // ค่าเริ่มต้น Role เป็น User
+                    IsAdmin = false // ค่าเริ่มต้น IsAdmin เป็น false
+                };
 
-            _context.Users.Add(user);
-            _context.SaveChanges();
+                _context.Users.Add(user);
+                _context.SaveChanges();
 
-            var userWallet = new UserWallet
+                TempData["Message"] = "Registration successful. Please log in.";
+                return RedirectToAction("Login");
+            }
+            catch (Exception ex)
             {
-                UserId = user.Id,
-                Balance = 1000m // ค่าเริ่มต้น Wallet
-            };
-
-            _context.UserWallets.Add(userWallet);
-            _context.SaveChanges();
-
-            TempData["Message"] = "Registration successful. Please log in.";
-            return RedirectToAction("Login");
+                ModelState.AddModelError("", $"Registration failed: {ex.Message}");
+            }
         }
 
         return View(model);
@@ -126,14 +135,22 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult ForgotPassword(string email)
     {
-        var user = _context.Users.FirstOrDefault(u => u.Email == email);
-        if (user != null)
+        try
         {
-            TempData["Email"] = email; // เก็บอีเมลไว้ชั่วคราว
-            return RedirectToAction("EnterOtp");
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            if (user != null)
+            {
+                TempData["Email"] = email; // เก็บอีเมลไว้ชั่วคราว
+                return RedirectToAction("EnterOtp");
+            }
+
+            ModelState.AddModelError("", "Email not found.");
+        }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError("", $"An error occurred: {ex.Message}");
         }
 
-        ModelState.AddModelError("", "Email not found.");
         return View();
     }
 
@@ -148,7 +165,7 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult EnterOtp(string otp)
     {
-        if (otp == PredefinedOtp) // ตรวจสอบ OTP
+        if (otp == PredefinedOtp)
         {
             return RedirectToAction("ResetPassword");
         }
@@ -171,22 +188,33 @@ public class AccountController : Controller
         var email = TempData["Email"]?.ToString();
         if (!string.IsNullOrEmpty(email))
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == email);
-            if (user != null)
+            try
             {
-                user.PasswordHash = HashPassword(newPassword);
-                _context.SaveChanges();
+                var user = _context.Users.FirstOrDefault(u => u.Email == email);
+                if (user != null)
+                {
+                    user.PasswordHash = HashPassword(newPassword);
+                    _context.SaveChanges();
 
-                TempData["Message"] = "Password reset successful. Please log in.";
-                return RedirectToAction("Login");
+                    TempData["Message"] = "Password reset successful. Please log in.";
+                    return RedirectToAction("Login");
+                }
+
+                ModelState.AddModelError("", "User not found.");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"An error occurred while resetting the password: {ex.Message}");
             }
         }
+        else
+        {
+            ModelState.AddModelError("", "Email not found in session. Please try again.");
+        }
 
-        ModelState.AddModelError("", "Something went wrong. Please try again.");
         return View();
     }
 
-    // ฟังก์ชันสำหรับ Hash รหัสผ่าน
     private string HashPassword(string password)
     {
         using (var sha256 = SHA256.Create())
@@ -197,7 +225,6 @@ public class AccountController : Controller
         }
     }
 
-    // ฟังก์ชันสำหรับตรวจสอบรหัสผ่านที่ป้อน
     private bool VerifyPassword(string password, string hashedPassword)
     {
         return HashPassword(password) == hashedPassword;

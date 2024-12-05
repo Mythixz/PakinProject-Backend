@@ -11,23 +11,15 @@ namespace PakinProject.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; } // เพิ่ม DbSet สำหรับ OrderItem
-        public DbSet<UserWallet> UserWallets { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Payment> Payments { get; set; }
-        public DbSet<Wallet> Wallets { get; set; } // เพิ่ม DbSet สำหรับ Wallet
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.Property(e => e.Price)
-                      .HasColumnType("decimal(18,2)");
-            });
-
-            modelBuilder.Entity<UserWallet>(entity =>
-            {
-                entity.Property(e => e.Balance)
                       .HasColumnType("decimal(18,2)");
             });
 
@@ -56,12 +48,6 @@ namespace PakinProject.Data
                       .HasColumnType("decimal(18,2)");
             });
 
-            // เพิ่มโมเดล Wallet
-            modelBuilder.Entity<Wallet>(entity =>
-            {
-                entity.Property(e => e.Balance)
-                      .HasColumnType("decimal(18,2)");
-            });
 
             base.OnModelCreating(modelBuilder);
         }

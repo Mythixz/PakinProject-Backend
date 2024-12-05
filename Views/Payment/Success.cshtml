@@ -1,9 +1,47 @@
-﻿@{
-    ViewData["Title"] = "Payment Success";
-}
+﻿<div class="container my-5">
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-success text-white text-center py-4">
+            <h2 class="fw-bold">ชำระเงินสำเร็จ</h2>
+        </div>
+        <div class="card-body">
+            <div class="text-center my-4">
+                <i class="fas fa-check-circle fa-5x text-success"></i>
+                <p class="fs-4 mt-3 text-secondary">การชำระเงินของคุณเสร็จสมบูรณ์!</p>
+            </div>
 
-<h2>Payment Successful</h2>
+            <div class="mt-4 mx-auto" style="max-width: 600px;">
+                <table class="table table-borderless align-middle">
+                    <tbody>
+                        <tr>
+                            <th class="text-end w-50 text-secondary">หมายเลขคำสั่งซื้อ:</th>
+                            <td class="text-start text-dark">@Model.OrderId</td>
+                        </tr>
+                        <tr>
+                            <th class="text-end w-50 text-secondary">ยอดชำระทั้งหมด:</th>
+                            <td class="text-start text-success fw-bold">
+                                @Model.TotalAmount.ToString("C", new System.Globalization.CultureInfo("th-TH"))
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-end w-50 text-secondary">วิธีการชำระเงิน:</th>
+                            <td class="text-start text-dark">@Model.PaymentMethod</td>
+                        </tr>
+                        <tr>
+                            <th class="text-end w-50 text-secondary">ที่อยู่จัดส่ง:</th>
+                            <td class="text-start text-dark">@Model.Address</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-<p>Your payment was processed successfully!</p>
-
-<a href="@Url.Action("Index", "Home")" class="btn btn-primary">Go to Home</a>
+            <div class="text-center mt-5 d-flex justify-content-center gap-3">
+                <a href="@Url.Action("Index", "Home")" class="btn btn-success px-4">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="@Url.Action("GenerateInvoicePdf", "Payment", new { orderId = Model.OrderId })" class="btn btn-primary px-4">
+                    <i class="fas fa-file-pdf"></i> ดาวน์โหลดใบแจ้งหนี้
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

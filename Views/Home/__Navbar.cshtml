@@ -1,16 +1,18 @@
 ﻿@{
     var currentCshtmlName = ViewBag.CshtmlName ?? string.Empty;
-    var userRole = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Role)?.Value; // ดึง Role จาก Claims
-}
 
+
+
+    // ตรวจสอบ Role และ Email ของผู้ใช้
+
+    var userRole = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Role)?.Value ?? string.Empty;
+
+    var userEmail = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email)?.Value ?? string.Empty;
+}
 
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <div class="container-fluid">
-            <!-- Logo Section -->
-            <button type="button" class="btn text-primary mx-2" data-bs-toggle="modal" data-bs-target="#searchModal">
-                <i class="fa fa-search"></i> <!-- ไอคอน Search -->
-            </button>
 
             <!-- Navbar Toggle for Mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,17 +22,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     @if (User.Identity.IsAuthenticated)
-                    {
-                        <!-- Display Wallet -->
-                        <li class="nav-item me-3">
-                            <div class="wallet-info text-center">
-                                <p class="wallet-label">Your Wallet</p>
-                                <p class="wallet-balance">
-                                    Balance: <strong>@ViewData["UserWalletBalance"]</strong>
-                                </p>
-                            </div>
-                        </li>
 
+                    {
                         <!-- Display Username -->
                         <li class="nav-item me-3">
                             <div class="user-info text-center">
@@ -41,8 +34,9 @@
                             </div>
                         </li>
 
-                        <!-- Admin Settings (Only for Admin Role) -->
-                        @if (userRole == "Admin") // แสดงลิงก์ Settings ถ้า Role เป็น Admin
+                        <!-- Admin Settings -->
+                        @if (string.Equals(userRole, "Admin", StringComparison.OrdinalIgnoreCase) && string.Equals(userEmail, "admin@gmail.com", StringComparison.OrdinalIgnoreCase))
+
                         {
                             <li class="nav-item me-3">
                                 <a class="nav-link text-primary" href="@Url.Action("Index", "Admin")">Settings</a>
@@ -56,7 +50,9 @@
                             </form>
                         </li>
                     }
+
                     else
+
                     {
                         <!-- Login and Register Links -->
                         <li class="nav-item">
@@ -71,13 +67,16 @@
         </div>
     </nav>
 
-    @if (currentCshtmlName == string.Empty)
+    @if (string.IsNullOrEmpty(currentCshtmlName))
+
     {
         <!-- Hero Start -->
         @await Html.PartialAsync("__Hero")
         <!-- Hero End -->
     }
+
     else
+
     {
         <!-- Header Start -->
         @await Html.PartialAsync("__Header")

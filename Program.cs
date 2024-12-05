@@ -1,25 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PakinProject.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using PakinProject.Filters; // เพิ่ม Namespace สำหรับ Filter
+using QuestPDF.Infrastructure; // Import สำหรับการตั้งค่า License
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews(options =>
-{
-    // เพิ่ม Global Filter สำหรับ WalletBalanceFilter
-    options.Filters.Add<WalletBalanceFilter>();
-});
+builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddHttpContextAccessor();
-
 
 // เพิ่มการตั้งค่า DbContext และการเชื่อมต่อฐานข้อมูล
 builder.Services.AddDbContext<PakinProjectContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// เพิ่มการตั้งค่าการรับรองความถูกต้อง
+// ตั้งค่าการรับรองความถูกต้อง
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -27,9 +23,6 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/Account/Logout";
         options.AccessDeniedPath = "/Account/AccessDenied"; // เพิ่มหน้ากรณีไม่มีสิทธิ์
     });
-
-// เพิ่ม WalletBalanceFilter เป็น Dependency
-builder.Services.AddScoped<WalletBalanceFilter>();
 
 var app = builder.Build();
 
@@ -45,24 +38,15 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// เพิ่ม middleware สำหรับการรับรองความถูกต้อง
+// Middleware สำหรับการรับรองความถูกต้อง
 app.UseAuthentication();
 app.UseAuthorization();
 
-// เพิ่ม Route สำหรับ Admin และ User
-app.MapControllerRoute(
-    name: "Admin", 
-    pattern: "Admin/{controller=Home}/{action=Index}/{id?}");  // เส้นทางสำหรับ Admin
+// ตั้งค่า License สำหรับ QuestPDF
+QuestPDF.Settings.License = LicenseType.Community; // ใช้ License แบบ Community
 
 app.MapControllerRoute(
-    name: "Order",
-    pattern: "Order/{controller=Order}/{action=Index}/{id?}"); // เส้นทางสำหรับ Order
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapControllerRoute(
-    name: "Store",
-    pattern: "Store/{controller=Store}/{action=Index}/{id?}"); // เส้นทางสำหรับ Store
-
-app.MapControllerRoute(
-    name: "default", 
-    pattern: "{controller=Home}/{action=Index}/{id?}");  // เส้นทางพื้นฐาน
 app.Run();

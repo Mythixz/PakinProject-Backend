@@ -1,11 +1,72 @@
-﻿@model IEnumerable<PakinProject.Models.Product>
+﻿@model PakinProject.Models.Product
 
-@foreach (var product in Model)
-{
-    <div class="col-md-4">
-        <h5>@product.ProductName</h5>
-        <p>@product.Description</p>
-        <p>Price: @product.Price.ToString("C")</p>
-        <img src="data:image/jpeg;base64,@product.ImageBase64" alt="@product.ProductName" class="img-fluid" />
-    </div>
+@{
+    ViewData["Title"] = "Product Details";
 }
+
+<div class="bg-container">
+    <img src="/landingpage/img/bg-admin.jpg" alt="Background" class="bg-fullscreen">
+</div>
+
+<body>
+    <!-- Product Details Section -->
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow-lg" style="background-color: rgba(255, 255, 255, 0.95);">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Product Image -->
+                            <div class="col-md-6 text-center">
+                                @if (!string.IsNullOrEmpty(Model.ImageBase64))
+                                {
+                                    <img src="data:image/png;base64,@Model.ImageBase64" class="img-fluid rounded shadow" alt="@Model.ProductName" style="max-width: 100%; height: auto;" />
+                                }
+                                else
+                                {
+                                    <div class="text-muted">No Image Available</div>
+                                }
+                            </div>
+
+                            <!-- Product Details -->
+                            <div class="col-md-6">
+                                <h3 class="text-primary">@Html.DisplayFor(model => model.ProductName)</h3>
+                                <p class="text-muted">Category: <strong>@Html.DisplayFor(model => model.Category)</strong></p>
+                                <h4 class="text-danger mb-3">Price: @Html.DisplayFor(model => model.Price) THB</h4>
+                                <p><strong>Description:</strong> @Html.DisplayFor(model => model.Description)</p>
+                                <p>
+                                    <strong>Stock Available:</strong>
+                                    <span class="badge @(Model.StockQuantity > 0 ? "bg-success" : "bg-danger")">
+                                        @(Model.StockQuantity > 0 ? $"{Model.StockQuantity} In Stock" : "Out of Stock")
+                                    </span>
+                                </p>
+
+                                <!-- Add to Cart -->
+                                @if (Model.StockQuantity > 0)
+                                {
+                                    <form asp-action="AddToCart" asp-controller="Store" method="post">
+                                        <input type="hidden" name="productId" value="@Model.Id" />
+                                        <button type="submit" class=". btn-lg w-100 mb-3">
+                                            <i class="fas fa-cart-plus"></i> Add to Cart
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-secondary btn-lg w-100 mb-3" disabled>
+                                        Out of Stock
+                                    </button>
+                                }
+
+                                <!-- Back to Products -->
+                                <a asp-action="Index" class="btn btn-secondary btn-lg w-100">
+                                    <i class="fas fa-arrow-left"></i> Back to Products
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

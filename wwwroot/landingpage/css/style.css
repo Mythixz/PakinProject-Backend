@@ -666,3 +666,18 @@ body {
 .navbar-nav .nav-item.me-3 {
     margin-right: 20px; /* เพิ่มระยะห่างระหว่างส่วนต่างๆ */
 }
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+}
+.square-btn {
+    display: inline-flex; /* จัดการไอคอนให้อยู่ตรงกลาง */
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* กำหนดความกว้าง */
+    height: 50px; /* กำหนดความสูง */
+    border-radius: 0; /* ทำให้มุมไม่โค้งมน */
+    text-align: center;
+    font-size: 24px; /* ขนาดของไอคอน */
+}

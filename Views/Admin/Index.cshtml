@@ -1,7 +1,111 @@
-﻿@page
-@model List<PakinProject.Models.Product>
+﻿@model IEnumerable<PakinProject.Models.Product>
 
-<!-- Facts Start -->
-@await Html.PartialAsync("__About")
-@await Html.PartialAsync("__Vendor")
+@{
+    ViewData["Title"] = "Admin Product Table";
+}
 
+<div class="bg-container">
+    <img src="/landingpage/img/bg-admin.jpg" alt="Background" class="bg-fullscreen">
+</div>
+
+<body>
+    <!-- Admin Product Card -->
+    <div class="container">
+        <div class="table-card">
+            <h2 class="text-center">Product List</h2>
+            <p class="text-center">Manage your products effectively!</p>
+
+            <!-- Create New Product -->
+            <div class="text-center mb-4">
+                <a asp-action="Create" class="btn btn-success btn-lg">Create New Product</a>
+            </div>
+
+            <!-- Filter and Sort Form -->
+            <form method="get" asp-action="Index" class="mb-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="Category" class="form-label">Category</label>
+                        <select id="Category" name="category" class="form-select">
+                            <option value="">-- All Categories --</option>
+                            <option value="Smartphone">Smartphone</option>
+                            <option value="Gaming Gear">Gaming Gear</option>
+                            <option value="Accessories">Accessories</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="SortOption" class="form-label">Sort By</label>
+                        <select id="SortOption" name="sortOption" class="form-select">
+                            <option value="">-- Default --</option>
+                            <option value="PriceAsc">Price: Low to High</option>
+                            <option value="PriceDesc">Price: High to Low</option>
+                            <option value="Popular">Most Popular</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary w-100">Apply</button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Product Table -->
+            <table class="table table-striped table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Product Code</th>
+                        <th>Product Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Stock</th>
+                        <th>Image</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+
+                    {
+                        <tr>
+                            <td>@item.ProductCode</td>
+                            <td>@item.ProductName</td>
+                            <td>@item.Description</td>
+                            <td>@item.Price.ToString("C")</td>
+                            <td>@item.Category</td>
+                            <td>
+                                @if (item.StockQuantity <= 10)
+
+                                {
+                                    <span class="text-danger">Low: @item.StockQuantity</span>
+                                }
+
+                                else
+
+                                {
+                                    <span>@item.StockQuantity</span>
+                                }
+                            </td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.ImageBase64))
+
+                                {
+                                    <img src="data:image/png;base64,@item.ImageBase64" class="img-fluid" style="max-width: 100px;" alt="Product Image" />
+                                }
+
+                                else
+
+                                {
+                                    <span>No Image</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>

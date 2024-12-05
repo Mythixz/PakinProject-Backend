@@ -4,76 +4,83 @@
     ViewData["Title"] = "Create";
 }
 
-<h1 class="text-center my-4">Create New Product</h1>
+<div class="bg-container">
+    <img src="/landingpage/img/bg-admin.jpg" alt="Background" class="bg-fullscreen">
+</div>
 
-<div class="container">
-    <h4>Product Details</h4>
-    <hr />
-    <div class="row">
-        <div class="col-md-6 mx-auto">
-            <form asp-action="Create" enctype="multipart/form-data">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<body>
+    <!-- Create Product Card -->
+    <div class="container">
+        <div class="table-card">
+            <h2 class="text-center">Create New Product</h2>
+            <p class="text-center">Fill in the details to add a new product.</p>
 
-                <div class="form-group">
-                    <label asp-for="ProductCode" class="control-label"></label>
-                    <input asp-for="ProductCode" class="form-control" />
-                    <span asp-validation-for="ProductCode" class="text-danger"></span>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form asp-action="Create" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="ProductCode" class="form-label">Product Code</label>
+                            <input asp-for="ProductCode" class="form-control" />
+                            <span asp-validation-for="ProductCode" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="ProductName" class="form-label">Product Name</label>
+                            <input asp-for="ProductName" class="form-control" />
+                            <span asp-validation-for="ProductName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Description" class="form-label">Description</label>
+                            <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Price" class="form-label">Price</label>
+                            <input asp-for="Price" class="form-control" type="number" step="0.01" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Category" class="form-label">Category</label>
+                            <select asp-for="Category" class="form-select">
+                                <option value="">-- Select Category --</option>
+                                <option value="Mobile">Mobile</option>
+                                <option value="PC">PC</option>
+                                <option value="Console">Console</option>
+                                <option value="Accessories">Accessories</option>
+                            </select>
+                            <span asp-validation-for="Category" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="StockQuantity" class="form-label">Stock Quantity</label>
+                            <input asp-for="StockQuantity" class="form-control" type="number" min="0" />
+                            <span asp-validation-for="StockQuantity" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label for="imageFile" class="form-label">Upload Image</label>
+                            <input type="file" id="imageFile" name="imageFile" class="form-control" accept="image/*" />
+                            <span asp-validation-for="ImageBase64" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-success btn-lg">Create Product</button>
+                        </div>
+                    </form>
                 </div>
+            </div>
 
-                <div class="form-group">
-                    <label asp-for="ProductName" class="control-label"></label>
-                    <input asp-for="ProductName" class="form-control" />
-                    <span asp-validation-for="ProductName" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label asp-for="Description" class="control-label"></label>
-                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
-                    <span asp-validation-for="Description" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label asp-for="Price" class="control-label"></label>
-                    <input asp-for="Price" class="form-control" type="number" step="0.01" />
-                    <span asp-validation-for="Price" class="text-danger"></span>
-                </div>
-
-                <!-- เพิ่มฟิลด์สำหรับหมวดหมู่ -->
-                <div class="form-group">
-                    <label asp-for="Category" class="control-label"></label>
-                    <select asp-for="Category" class="form-control">
-                        <option value="">-- Select Category --</option>
-                        <option value="Smartphone">Smartphone</option>
-                        <option value="Gaming Gear">Gaming Gear</option>
-                        <option value="Accessories">Accessories</option>
-                    </select>
-                    <span asp-validation-for="Category" class="text-danger"></span>
-                </div>
-
-                <!-- เพิ่มฟิลด์สำหรับจำนวนสินค้าในสต็อก -->
-                <div class="form-group">
-                    <label asp-for="StockQuantity" class="control-label"></label>
-                    <input asp-for="StockQuantity" class="form-control" type="number" min="0" />
-                    <span asp-validation-for="StockQuantity" class="text-danger"></span>
-                </div>
-
-                <div class="form-group">
-                    <label for="imageFile" class="control-label">Upload Image</label>
-                    <input type="file" id="imageFile" name="imageFile" class="form-control" accept="image/*" />
-                    <span asp-validation-for="ImageBase64" class="text-danger"></span>
-                </div>
-
-                <div class="form-group" style="margin-top : 20px">
-                    <input type="submit" value="Create" class="btn btn-success btn-block" />
-                </div>
-            </form>
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="btn btn-link">Back to Product List</a>
+            </div>
         </div>
     </div>
-</div>
-
-<div class="text-center">
-    <a asp-action="Index" class="btn btn-link">Back to List</a>
-</div>
+</body>
 
 @section Scripts {
     @{

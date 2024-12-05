@@ -191,7 +191,7 @@ body {
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #FFFFFF;
+        background: #222;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {

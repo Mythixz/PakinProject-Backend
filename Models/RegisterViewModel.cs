@@ -15,6 +15,6 @@ public class RegisterViewModel
     // ยืนยันรหัสผ่าน
     [Required(ErrorMessage = "Please confirm your password")]
     [DataType(DataType.Password)]
-    [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+    [Compare("Password", ErrorMessage = "รหัสผ่านและการยืนยันรหัสผ่านไม่ตรงกัน กรุณาตรวจสอบอีกครั้ง")]
     public string? ConfirmPassword { get; set; }
 }

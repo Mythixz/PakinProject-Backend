@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Http;
 using PakinProject.Models; // แทนที่ด้วย namespace ของโปรเจคจริงของคุณ
 using PakinProject.Data; // ใช้สำหรับเข้าถึงฐานข้อมูล
 using System.Linq;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
@@ -76,6 +75,7 @@ public class ShoppingCartController : Controller
         }
 
         await _context.SaveChangesAsync();
+        TempData["Message"] = $"เพิ่มสินค้าลงในตะกร้าเรียบร้อยแล้ว!";
         return RedirectToAction("Index");
     }
 
@@ -115,6 +115,7 @@ public class ShoppingCartController : Controller
         {
             _context.CartItems.Remove(cartItem);
             _context.SaveChanges();
+            TempData["Message"] = "ลบสินค้าออกจากตะกร้าเรียบร้อยแล้ว!";
         }
 
         return RedirectToAction("Index");
@@ -142,5 +143,31 @@ public class ShoppingCartController : Controller
 
         ViewBag.TotalPrice = totalPrice;
         return View(cartItems);
+    }
+
+    // ล้างข้อมูลในตะกร้าสินค้า
+    public async Task<IActionResult> ClearCart()
+    {
+        var userEmail = _httpContextAccessor.HttpContext.User.Identity.Name;
+        if (string.IsNullOrEmpty(userEmail))
+        {
+            TempData["ErrorMessage"] = "ไม่สามารถล้างตะกร้าได้ เนื่องจากไม่ได้เข้าสู่ระบบ!";
+            return RedirectToAction("Index");
+        }
+
+        var cartItems = _context.CartItems.Where(c => c.CustomerID == userEmail).ToList();
+
+        if (cartItems.Any())
+        {
+            _context.CartItems.RemoveRange(cartItems);
+            await _context.SaveChangesAsync();
+            TempData["Message"] = "ล้างตะกร้าสินค้าเรียบร้อยแล้ว!";
+        }
+        else
+        {
+            TempData["ErrorMessage"] = "ไม่มีสินค้าภายในตะกร้า!";
+        }
+
+        return RedirectToAction("Index");
     }
 }

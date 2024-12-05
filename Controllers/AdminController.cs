@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization; // ใช้สำหรับการตรวจสอบสิทธิ์
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PakinProject.Data;
 using PakinProject.Models;
 
+[Authorize] // บังคับให้ต้อง Login ก่อนถึงจะเข้าถึง Controller ได้
 public class AdminController : Controller
 {
     private readonly PakinProjectContext _context;
@@ -13,8 +15,19 @@ public class AdminController : Controller
         _context = context;
     }
 
+    // ตรวจสอบ Role ว่าเป็น Admin หรือไม่
+    private bool IsAdmin()
+    {
+        return User.IsInRole("Admin");
+    }
+
     public async Task<IActionResult> Index(string category, string sortOption)
     {
+        if (!IsAdmin())
+        {
+            return Forbid(); // ป้องกันไม่ให้ User ที่ไม่ใช่ Admin เข้าถึง
+        }
+
         var products = _context.Products.AsQueryable();
 
         // กรองสินค้าตามหมวดหมู่
@@ -28,7 +41,7 @@ public class AdminController : Controller
         {
             "PriceAsc" => products.OrderBy(p => p.Price),
             "PriceDesc" => products.OrderByDescending(p => p.Price),
-            "Popular" => products.OrderByDescending(p => p.Sales), // ตัวอย่าง ใช้ฟิลด์ Sales
+            "Popular" => products.OrderByDescending(p => p.Sales),
             _ => products
         };
 
@@ -37,7 +50,12 @@ public class AdminController : Controller
 
     public IActionResult Create()
     {
-        ViewBag.Categories = new SelectList(new[] { "Smartphone", "Gaming Gear", "Accessories" });
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
+        ViewBag.Categories = new SelectList(new[] { "Mobile", "PC", "Console", "Accessories" });
         return View();
     }
 
@@ -45,6 +63,11 @@ public class AdminController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Product product, IFormFile imageFile)
     {
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
         if (ModelState.IsValid)
         {
             if (imageFile != null && imageFile.Length > 0)
@@ -60,27 +83,35 @@ public class AdminController : Controller
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        ViewBag.Categories = new SelectList(new[] { "Smartphone", "Gaming Gear", "Accessories" });
+
+        ViewBag.Categories = new SelectList(new[] { "Mobile", "PC", "Console", "Accessories" });
         return View(product);
     }
 
     public IActionResult LowStockAlert()
     {
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
         var lowStockProducts = _context.Products.Where(p => p.StockQuantity <= 10).ToList();
         return View(lowStockProducts);
     }
 
-    // GET: Products/Edit/5
     public async Task<IActionResult> Edit(int? id)
     {
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
         if (id == null) return NotFound();
 
         var product = await _context.Products.FindAsync(id);
         if (product == null) return NotFound();
 
-        // ส่งรายการหมวดหมู่ไปยัง View ผ่าน ViewBag
-        ViewBag.Categories = new SelectList(new[] { "Smartphone", "Gaming Gear", "Accessories" });
-
+        ViewBag.Categories = new SelectList(new[] { "Mobile", "PC", "Console", "Accessories" });
         return View(product);
     }
 
@@ -88,12 +119,16 @@ public class AdminController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, Product product)
     {
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
         if (ModelState.IsValid)
         {
             var existingProduct = await _context.Products.FindAsync(id);
             if (existingProduct == null) return NotFound();
 
-            // อัปเดตข้อมูลสินค้า
             existingProduct.ProductCode = product.ProductCode;
             existingProduct.ProductName = product.ProductName;
             existingProduct.Description = product.Description;
@@ -101,7 +136,6 @@ public class AdminController : Controller
             existingProduct.Category = product.Category;
             existingProduct.StockQuantity = product.StockQuantity;
 
-            // อัปเดตรูปภาพหากมีการอัปโหลดใหม่
             if (product.UploadedImage != null && product.UploadedImage.Length > 0)
             {
                 using (var memoryStream = new MemoryStream())
@@ -113,7 +147,7 @@ public class AdminController : Controller
 
             try
             {
-                await _context.SaveChangesAsync(); // บันทึกการเปลี่ยนแปลงลงในฐานข้อมูล
+                await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -121,24 +155,20 @@ public class AdminController : Controller
                 else throw;
             }
 
-            return RedirectToAction(nameof(Index)); // กลับไปที่หน้ารายการสินค้า
+            return RedirectToAction(nameof(Index));
         }
 
-        // ส่งรายการหมวดหมู่ไปยัง View อีกครั้งในกรณีที่ ModelState ไม่ถูกต้อง
-        ViewBag.Categories = new SelectList(new[] { "Smartphone", "Gaming Gear", "Accessories" });
+        ViewBag.Categories = new SelectList(new[] { "Mobile", "PC", "Console", "Accessories" });
         return View(product);
     }
 
-    // ฟังก์ชันตรวจสอบว่าสินค้าด้วย ID มีอยู่หรือไม่
-    private bool ProductExists(int id)
-    {
-        return _context.Products.Any(e => e.Id == id);
-    }
-
-    // --- ฟังก์ชัน Delete ---
-    // GET: Products/Delete/5
     public async Task<IActionResult> Delete(int? id)
     {
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
         if (id == null)
         {
             return NotFound();
@@ -157,6 +187,11 @@ public class AdminController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
         var product = await _context.Products.FindAsync(id);
         if (product != null)
         {
@@ -167,22 +202,29 @@ public class AdminController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // --- ฟังก์ชัน Details ---
-    // GET: Products/Details/5
     public async Task<IActionResult> Details(int? id)
     {
+        if (!IsAdmin())
+        {
+            return Forbid();
+        }
+
         if (id == null)
         {
             return NotFound();
         }
 
-        var product = await _context.Products
-            .FirstOrDefaultAsync(m => m.Id == id);
+        var product = await _context.Products.FirstOrDefaultAsync(m => m.Id == id);
         if (product == null)
         {
             return NotFound();
         }
 
         return View(product);
+    }
+
+    private bool ProductExists(int id)
+    {
+        return _context.Products.Any(e => e.Id == id);
     }
 }

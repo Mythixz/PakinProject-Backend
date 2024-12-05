@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Account - Pakin Gaming Gears</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Manage your Pakin Gaming Profile" name="keywords">
+    <meta content="Access and manage your account at Pakin Gaming Gears" name="description">
+
+    @await Html.PartialAsync("__css")
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    @await Html.PartialAsync("__Topbar")
+    <!-- Topbar End -->
+    @await Html.PartialAsync("__UnderNavbar")
+    <!-- Navbar & Carousel Start -->
+    @await Html.PartialAsync("__Navbar")
+    <!-- Navbar & Carousel End -->
+
+   <!-- Navbar End -->
+
+    <!-- Content -->
+    @RenderBody()
+
+    <!-- Footer Start -->
+    @await Html.PartialAsync("__Footer")
+    <!-- Footer End -->
+
+
+    @await Html.PartialAsync("__js")
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

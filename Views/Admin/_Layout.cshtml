@@ -26,7 +26,8 @@
     <!-- Navbar & Carousel Start -->
     @await Html.PartialAsync("__Navbar")
     <!-- Navbar & Carousel End -->
-    <!-- Full Screen Search Start -->    <!-- Navbar End -->
+
+       <!-- Navbar End -->
 
     <!-- Content -->
     @RenderBody()
@@ -35,8 +36,6 @@
     @await Html.PartialAsync("__Footer")
     <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     @await Html.PartialAsync("__js")
     @await RenderSectionAsync("Scripts", required: false)

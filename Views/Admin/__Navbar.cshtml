@@ -2,10 +2,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <div class="container-fluid">
             <!-- Logo Section -->
-            <button type="button" class="btn text-primary mx-2" data-bs-toggle="modal" data-bs-target="#searchModal">
-                <i class="fa fa-search"></i> <!-- ไอคอน Search -->
-            </button>
-
             <!-- Navbar Toggle for Mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -14,6 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     @if (User.Identity.IsAuthenticated)
+
                     {
                         <!-- Display Username -->
                         <li class="nav-item">
@@ -26,7 +23,9 @@
                             </form>
                         </li>
                     }
+
                     else
+
                     {
                         <!-- Login and Register Links -->
                         <li class="nav-item">

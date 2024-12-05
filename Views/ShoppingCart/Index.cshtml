@@ -1,71 +1,85 @@
 ﻿@model IEnumerable<PakinProject.Models.CartItemDto>
 
 @{
-    ViewData["Title"] = "Shopping Cart";
-    var thaiCulture = new System.Globalization.CultureInfo("th-TH");  // ตั้งค่า Culture สำหรับประเทศไทย
+    var thaiCulture = new System.Globalization.CultureInfo("th-TH"); // ตั้งค่า Culture สำหรับประเทศไทย
 }
 
-<h2>Shopping Cart</h2>
+<div class="container my-5">
+    <h2 class="text-center mb-4">Shopping Cart</h2>
 
-@if (!Model.Any())
-{
-    <p>Your cart is empty.</p>
-}
-else
-{
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Product</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Total</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.ProductName</td>
-                    <!-- แสดงราคาในรูปแบบสกุลเงินบาท (ไม่มีทศนิยม) -->
-                    <td>@((item.Price > 0 ? item.Price : 0).ToString("C0", thaiCulture))</td>
-                    <td>
-                        <!-- ฟอร์มสำหรับการเลือกจำนวนสินค้า -->
-                        <form asp-action="UpdateQuantity" asp-controller="ShoppingCart" method="post" style="display:inline">
-                            <input type="hidden" name="cartItemId" value="@item.CartItemId" />
-                            <!-- ส่งฟอร์มอัตโนมัติเมื่อจำนวนสินค้าเปลี่ยนแปลง -->
-                            <input type="number" name="quantity" value="@(item.Quantity > 0 ? item.Quantity : 0)" min="1" class="form-control" style="width:80px" onchange="this.form.submit()" />
-                        </form>
-                    </td>
-                    <!-- คำนวณยอดรวมของสินค้าทั้งหมด และแสดงในรูปแบบสกุลเงินบาท (ไม่มีทศนิยม) -->
-                    <td>
-                        @{
-                            var total = (item.Price > 0 ? item.Price : 0) * (item.Quantity > 0 ? item.Quantity : 0);
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            <p>Your cart is empty.</p>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-lg border-0">
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ProductName</td>
+                                <td>@((item.Price > 0 ? item.Price : 0).ToString("C0", thaiCulture))</td>
+                                <td>
+                                    <form asp-action="UpdateQuantity" asp-controller="ShoppingCart" method="post" style="display:inline">
+                                        <input type="hidden" name="cartItemId" value="@item.CartItemId" />
+                                        <input type="number" name="quantity" value="@(item.Quantity > 0 ? item.Quantity : 0)" min="1" class="form-control form-control-sm d-inline-block text-center" style="width: 70px;" onchange="this.form.submit()" />
+                                    </form>
+                                </td>
+                                <td>
+                                    @{
+                                        var total = (item.Price > 0 ? item.Price : 0) * (item.Quantity > 0 ? item.Quantity : 0);
+                                    }
+                                    @total.ToString("C0", thaiCulture)
+                                </td>
+                                <td>
+                                    <form asp-action="RemoveFromCart" asp-controller="ShoppingCart" method="post" style="display:inline">
+                                        <input type="hidden" name="cartItemId" value="@item.CartItemId" />
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash-alt"></i> Remove
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
                         }
-                        @total.ToString("C0", thaiCulture)
-                    </td>
-                    <td>
-                        <form asp-action="RemoveFromCart" asp-controller="ShoppingCart" method="post" style="display:inline">
-                            <input type="hidden" name="cartItemId" value="@item.CartItemId" />
-                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
-                        </form>
-                    </td>
-                </tr>
-            }
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3" class="text-right"><strong>Total:</strong></td>
-                <td colspan="2">
-                    @{
-                        var grandTotal = Model.Sum(item => (item.Price > 0 ? item.Price : 0) * (item.Quantity > 0 ? item.Quantity : 0));
-                    }
-                    @grandTotal.ToString("C0", thaiCulture)
-                </td>
-            </tr>
-        </tfoot>
-    </table>
-    <a href="@Url.Action("Index", "Store")" class="btn btn-primary">Continue Shopping</a>
-    <a href="@Url.Action("Checkout", "ShoppingCart")" class="btn btn-success">Checkout</a>
-}
+                    </tbody>
+                    <tfoot class="table-light">
+                        <tr>
+                            <td colspan="3" class="text-end"><strong>Grand Total:</strong></td>
+                            <td colspan="2">
+                                @{
+                                    var grandTotal = Model.Sum(item => (item.Price > 0 ? item.Price : 0) * (item.Quantity > 0 ? item.Quantity : 0));
+                                }
+                                <strong>@grandTotal.ToString("C0", thaiCulture)</strong>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="d-flex justify-content-between align-items-center mt-4">
+                    <a href="@Url.Action("Index", "Store")" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left"></i> Continue Shopping
+                    </a>
+                    <!-- ปรับปุ่ม Checkout ให้เป็นฟอร์ม POST -->
+                    <form asp-action="Checkout" asp-controller="ShoppingCart" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-credit-card"></i> Checkout
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,31 +1,106 @@
-﻿<div class="container mt-5">
-    <h1 class="text-center my-4">Our Products</h1>
-    <div class="row">
-        @foreach (var product in Model)
-        {
-            <div class="col-md-3 mb-4">
-                <div class="card shadow-sm border-0 rounded">
-                    <!-- Product Image -->
-                    <img src="data:image/jpeg;base64,@product.ImageBase64" alt="@product.ProductName" class="card-img-top" style="height: 250px; object-fit: cover;" />
+﻿@model List<PakinProject.Models.Product>
 
-                    <div class="card-body text-center">
-                        <h5 class="card-title">@product.ProductName</h5>
-                        <p class="card-text">@product.Description</p>
-                        <h6 class="text-muted">@product.Price.ToString("C")</h6>
-                    </div>
 
-                    <div class="card-footer text-center">
-                        <!-- View Details Button -->
-                        <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-primary btn-sm w-100">View Details</a>
-                        
-                        <!-- Add to Cart Button -->
-                        <form asp-action="AddToCart" asp-controller="ShoppingCart" method="post" class="mt-2">
-                            <input type="hidden" name="productId" value="@product.Id" />
-                            <button type="submit" class="btn btn-success btn-sm w-100">Add to Cart</button>
-                        </form>
+<div class="container mt-5">
+    <h1 class="text-center my-4">Store</h1>
+
+    <!-- Display TempData Messages -->
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["Message"]
+        </div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger text-center">
+            @TempData["Error"]
+        </div>
+    }
+
+    <!-- Search and Sort Form -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <form action="/Store/Index" method="get" class="d-flex">
+            <input type="text" name="keyword" class="form-control me-2" placeholder="Search products" value="@ViewData["CurrentKeyword"]">
+            <select name="sortBy" class="form-select me-2">
+                @if (ViewData["CurrentSortBy"]?.ToString() == "")
+                {
+                    <option value="" selected>Sort by...</option>
+                }
+                else
+                {
+                    <option value="">Sort by...</option>
+                }
+                @if (ViewData["CurrentSortBy"]?.ToString() == "price_asc")
+                {
+                    <option value="price_asc" selected>Price: Low to High</option>
+                }
+                else
+                {
+                    <option value="price_asc">Price: Low to High</option>
+                }
+                @if (ViewData["CurrentSortBy"]?.ToString() == "price_desc")
+                {
+                    <option value="price_desc" selected>Price: High to Low</option>
+                }
+                else
+                {
+                    <option value="price_desc">Price: High to Low</option>
+                }
+                @if (ViewData["CurrentSortBy"]?.ToString() == "popularity")
+                {
+                    <option value="popularity" selected>Popularity</option>
+                }
+                else
+                {
+                    <option value="popularity">Popularity</option>
+                }
+            </select>
+            <button type="submit" class="btn btn-primary">Apply</button>
+        </form>
+    </div>
+
+    <!-- Product List -->
+    @if (Model == null || !Model.Any())
+    {
+        <p class="text-center text-warning">No products available or no search results found.</p>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var product in Model)
+            {
+                <div class="col-md-4 col-lg-3">
+                    <div class="card shadow-lg border-0 rounded h-100">
+                        <!-- Product Image -->
+                        @if (!string.IsNullOrEmpty(product.ImageBase64))
+                        {
+                            <img src="data:image/jpeg;base64,@product.ImageBase64" alt="@product.ProductName" class="card-img-top rounded-top" style="height: 250px; object-fit: cover;" />
+                        }
+                        else
+                        {
+                            <div class="d-flex align-items-center justify-content-center bg-light text-muted" style="height: 250px;">
+                                No Image
+                            </div>
+                        }
+                        <!-- Product Details -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold text-truncate">@product.ProductName</h5>
+                            <p class="card-text text-muted small">@product.Description</p>
+                            <h6 class="text-success fw-bold">@product.Price.ToString("C", new System.Globalization.CultureInfo("th-TH"))</h6>
+                        </div>
+                        <!-- Product Footer -->
+                        <div class="card-footer bg-light text-center">
+                            <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-primary btn-sm w-100 mb-2">View Details</a>
+                            <form asp-action="AddToCart" asp-controller="Store" method="post">
+                                <input type="hidden" name="productId" value="@product.Id" />
+                                <button type="submit" class="btn btn-success btn-sm w-100">Add to Cart</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        }
+            }
+        </div>
+    }
     </div>
 </div>

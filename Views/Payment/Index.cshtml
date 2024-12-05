@@ -1,30 +1,100 @@
-﻿@model PakinProject.Models.CheckoutDTO
+﻿@model PaymentViewModel
 
-@{
-    ViewData["Title"] = "Payment";
-    var totalPrice = ViewBag.TotalPrice;
-}
+<div class="container my-5">
+    <h2 class="text-center mb-4">Checkout</h2>
 
-<h2>Payment</h2>
+    <form asp-action="Process" method="post" class="shadow-lg p-4 bg-light rounded">
+        <!-- Total Amount -->
+        <div class="mb-3 text-center">
+            <h4>Total Price: <span class="text-primary">@Model.TotalAmount.ToString("C", new System.Globalization.CultureInfo("th-TH"))</span></h4>
+            <input type="hidden" asp-for="TotalAmount" />
+        </div>
 
-<p>Total Price: <strong>@totalPrice.ToString("C")</strong></p>
+        <!-- Shipping Address -->
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label">Shipping Address</label>
+            <input asp-for="Address" class="form-control" required placeholder="Enter your shipping address" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
 
-<form method="post" action="@Url.Action("Process", "Payment")">
-    <input type="hidden" name="TotalPrice" value="@totalPrice" />
-    <div class="form-group">
-        <label for="paymentMethod">Select Payment Method:</label>
-        <select name="PaymentMethod" id="paymentMethod" class="form-control" required>
-            <option value="">-- Select --</option>
-            <option value="CreditCard">Credit Card</option>
-            <option value="Wallet">Wallet</option>
-            <option value="COD">Cash on Delivery (COD)</option>
-        </select>
-    </div>
+        <!-- Payment Method -->
+        <div class="mb-3">
+            <label asp-for="SelectedPaymentMethod" class="form-label">Payment Method</label>
+            <select asp-for="SelectedPaymentMethod" class="form-select" required onchange="toggleCreditCardInfo(this.value)">
+                <option value="CreditCard">Credit Card</option>
+                <option value="COD" selected>Cash on Delivery (COD)</option>
+            </select>
+            <span asp-validation-for="SelectedPaymentMethod" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <label for="ShippingAddress">Shipping Address:</label>
-        <textarea id="ShippingAddress" name="ShippingAddress" class="form-control" required></textarea>
-    </div>
+        <!-- Credit Card Information -->
+        <div id="creditCardInfo" class="mt-3" style="display:none;">
+            <div class="mb-3">
+                <label asp-for="CreditCardNumber" class="form-label">Card Number</label>
+                <input asp-for="CreditCardNumber" class="form-control" maxlength="16" placeholder="Enter 16-digit card number" />
+                <span asp-validation-for="CreditCardNumber" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="CreditCardExpiry" class="form-label">Expiry Date</label>
+                <input asp-for="CreditCardExpiry" class="form-control" maxlength="5" placeholder="MM/YY" />
+                <span asp-validation-for="CreditCardExpiry" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="CreditCardCVV" class="form-label">CVV</label>
+                <input asp-for="CreditCardCVV" class="form-control" maxlength="3" placeholder="3-digit CVV" />
+                <span asp-validation-for="CreditCardCVV" class="text-danger"></span>
+            </div>
+        </div>
 
-    <button type="submit" class="btn btn-primary">Submit Payment</button>
-</form>
+        <!-- Delivery Option -->
+        <div class="mb-3">
+            <label asp-for="DeliveryOption" class="form-label">Delivery Option</label>
+            <select asp-for="DeliveryOption" class="form-select" required>
+                <option value="Standard" selected>Standard Delivery</option>
+                <option value="Express">Express Delivery</option>
+                <option value="Fast">Fast Delivery</option>
+            </select>
+            <span asp-validation-for="DeliveryOption" class="text-danger"></span>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-lg">
+                <i class="fas fa-credit-card"></i> Submit Payment
+            </button>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Toggle visibility of credit card information based on selected payment method
+    function toggleCreditCardInfo(paymentMethod) {
+        const creditCardInfo = document.getElementById('creditCardInfo');
+        if (paymentMethod === 'CreditCard') {
+            creditCardInfo.style.display = 'block';
+            resetCreditCardFields(false); // Enable credit card fields
+        } else {
+            creditCardInfo.style.display = 'none';
+            resetCreditCardFields(true); // Disable and clear credit card fields
+        }
+    }
+
+    // Reset credit card fields
+    function resetCreditCardFields(disable) {
+        const inputs = document.querySelectorAll('#creditCardInfo input');
+        inputs.forEach(input => {
+            if (disable) {
+                input.value = ''; // Clear value
+                input.disabled = true;
+            } else {
+                input.disabled = false;
+            }
+        });
+    }
+
+    // Initialize the form display based on the selected payment method
+    document.addEventListener('DOMContentLoaded', () => {
+        const paymentMethodSelect = document.querySelector('select[asp-for="SelectedPaymentMethod"]');
+        toggleCreditCardInfo(paymentMethodSelect.value);
+    });
+</script>

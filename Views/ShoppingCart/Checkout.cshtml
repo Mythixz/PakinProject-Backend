@@ -4,42 +4,53 @@
     ViewData["Title"] = "Checkout";
 }
 
-<h2>@ViewData["Title"]</h2>
+<div class="container my-5">
+    <h2 class="text-center mb-4">@ViewData["Title"]</h2>
 
-@if (Model != null && Model.Any())
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Product Name</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Total</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.ProductName</td>
-                    <td>@item.Price.ToString("C")</td>
-                    <td>@item.Quantity</td>
-                    <td>@item.Total.ToString("C")</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    @if (Model != null && Model.Any())
+    {
+        <div class="card shadow-lg border-0">
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ProductName</td>
+                                <td>@item.Price.ToString("C", new System.Globalization.CultureInfo("th-TH"))</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.Total.ToString("C", new System.Globalization.CultureInfo("th-TH"))</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
 
-    <h3>Total Price: @ViewBag.TotalPrice.ToString("C")</h3>
+                <div class="text-end mt-4">
+                    <h3><strong>Total Price:</strong> @ViewBag.TotalPrice.ToString("C", new System.Globalization.CultureInfo("th-TH"))</h3>
+                </div>
 
-    <!-- ฟอร์มเพื่อไปหน้าการชำระเงิน -->
-    <form method="get" action="@Url.Action("Index", "Payment")">
-        <input type="hidden" name="totalPrice" value="@ViewBag.TotalPrice" />
-        <button type="submit" class="btn btn-primary">Proceed to Payment</button>
-    </form>
-
-}
-else
-{
-    <p>Your cart is empty.</p>
-}
+                <!-- Proceed to Payment Form -->
+                <form method="get" action="@Url.Action("Index", "Payment")" class="text-end mt-4">
+                    <input type="hidden" name="totalPrice" value="@ViewBag.TotalPrice" />
+                    <button type="submit" class="btn btn-success btn-lg">
+                        <i class="fas fa-credit-card"></i> Proceed to Payment
+                    </button>
+                </form>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning text-center">
+            <p>Your cart is empty.</p>
+        </div>
+    }
+</div>
